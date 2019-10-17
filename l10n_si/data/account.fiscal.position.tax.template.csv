@@ -1,0 +1,17 @@
+id,position_id/id,tax_src_id/id,tax_dest_id/id
+gd_fp_eu_tax1,gd_fp_eu,account_tax_D20b,account_tax_D24b
+gd_fp_eu_tax2,gd_fp_eu,account_tax_D20n,account_tax_D24n
+gd_fp_eu_tax3,gd_fp_eu,account_tax_D21b,account_tax_D25b
+gd_fp_eu_tax4,gd_fp_eu,account_tax_D21n,account_tax_D25n
+gd_fp_eu_tax5,gd_fp_eu,account_tax_D01b,account_tax_D30
+gd_fp_eu_tax6,gd_fp_eu,account_tax_D01n,account_tax_D30
+gd_fp_eu_tax7,gd_fp_eu,account_tax_D02b,account_tax_D30
+gd_fp_eu_tax8,gd_fp_eu,account_tax_D02n,account_tax_D30
+gd_fp_ne_tax1,gd_fp_ne,account_tax_D20b,account_tax_D31
+gd_fp_ne_tax2,gd_fp_ne,account_tax_D20n,account_tax_D31
+gd_fp_ne_tax3,gd_fp_ne,account_tax_D21b,account_tax_D31
+gd_fp_ne_tax4,gd_fp_ne,account_tax_D21n,account_tax_D31
+gd_fp_ne_tax5,gd_fp_ne,account_tax_D01b,account_tax_D30
+gd_fp_ne_tax6,gd_fp_ne,account_tax_D01n,account_tax_D30
+gd_fp_ne_tax7,gd_fp_ne,account_tax_D02b,account_tax_D30
+gd_fp_ne_tax8,gd_fp_ne,account_tax_D02n,account_tax_D30

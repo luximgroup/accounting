@@ -1,0 +1,29 @@
+id,chart_template_id/id,name,description,amount_type,amount,type_tax_use,price_include,refund_account_id/id,account_id/id,include_base_amount,sequence,children_tax_ids/id,tag_ids/id,tax_group_id:id
+gd_taxp_st_1_1,gd_chart,Vstopni DDV 9.5% - SO,SO-DDV-V-9.5,percent,9.5,none,False,gd_acc_160000,gd_acc_160000,False,2,,DDV_V_9_5_SO,tax_group_0
+gd_taxp_st_1_2,gd_chart,Izstopni DDV 9.5% - SO,SO-DDV-I-9.5,percent,-9.5,none,False,gd_acc_260000,gd_acc_260000,False,2,,DDV_I_9_5_SO,tax_group_0
+gd_taxp_st_1,gd_chart,Vstopni DDV 9.5% - samoobdavčitev,DDV-V-9.5-SO,group,0,purchase,False,,,False,1,"gd_taxp_st_1_1,gd_taxp_st_1_2",DDV_V_9_5_sam,tax_group_0
+gd_taxp_st_2_1,gd_chart,Vstopni DDV 22% - SO,SO-DDV-V-22,percent,22,none,False,gd_acc_160000,gd_acc_160000,False,2,,DDV_V_22_SO,tax_group_0
+gd_taxp_st_2_2,gd_chart,Izstopni DDV 22% - SO,SO-DDV-I-22,percent,-22,none,False,gd_acc_260000,gd_acc_260000,False,2,,DDV_I_22_SO,tax_group_0
+gd_taxp_st_2,gd_chart,Vstopni DDV 22% - samoobdavčitev,DDV-V-22-SO,group,0,purchase,False,,,False,1,"gd_taxp_st_2_1,gd_taxp_st_2_2",DDV_V_22_sam,tax_group_0
+account_tax_D01b,gd_chart,Prodaja SLO 22% - bruto,P_SLO_B_22,percent,22,sale,True,gd_acc_260000,gd_acc_260000,False,1,,P_SLO_B_22,tax_group_22
+account_tax_D01n,gd_chart,Prodaja SLO 22% - neto,P_SLO_N_22,percent,22,sale,False,gd_acc_260000,gd_acc_260000,False,1,,P_SLO_N_22,tax_group_22
+account_tax_D02b,gd_chart,"Prodaja SLO 9,5% - bruto",P_SLO_B_9_5,percent,9.5,sale,True,gd_acc_260000,gd_acc_260000,False,1,,P_SLO_B_9_5,tax_group_95
+account_tax_D02n,gd_chart,"Prodaja SLO 9,5% - neto",P_SLO_N_9_5,percent,9.5,sale,False,gd_acc_260000,gd_acc_260000,False,1,,P_SLO_N_9_5,tax_group_95
+account_tax_D20b,gd_chart,Nabava SLO 22% - bruto,N_SLO_B_22,percent,22,purchase,True,gd_acc_160000,gd_acc_160000,False,1,,N_SLO_B_22,tax_group_22
+account_tax_D20n,gd_chart,Nabava SLO 22% - neto,N_SLO_N_22,percent,22,purchase,False,gd_acc_160000,gd_acc_160000,False,1,,N_SLO_N_22,tax_group_22
+account_tax_D21b,gd_chart,"Nabava SLO 9,5% - bruto",N_SLO_B_9_5,percent,9.5,purchase,True,gd_acc_160000,gd_acc_160000,False,1,,N_SLO_B_9_5,tax_group_95
+account_tax_D21n,gd_chart,"Nabava SLO 9,5% - neto",N_SLO_N_9_5,percent,9.5,purchase,False,gd_acc_160000,gd_acc_160000,False,1,,N_SLO_N_9_5,tax_group_95
+account_tax_D24b1,gd_chart,Nabava EU 22% - bruto – vstopni,N_EU_B_22_IN,percent,22,none,True,gd_acc_160000,gd_acc_160000,False,2,,N_EU_B_22_IN,tax_group_0
+account_tax_D24b2,gd_chart,Nabava EU 22% - bruto – izstopni,N_EU_B_22_OUT,percent,-22,none,True,gd_acc_260000,gd_acc_260000,False,2,,N_EU_B_22_OUT,tax_group_0
+account_tax_D24b,gd_chart,Nabava EU 22% - bruto,N_EU_B_22,group,0,purchase,True,,,False,1,"account_tax_D24b1,account_tax_D24b2",N_EU_B_22,tax_group_0
+account_tax_D24n1,gd_chart,Nabava EU 22% - neto – vstopni,N_EU_N_22_IN,percent,22,none,False,gd_acc_160000,gd_acc_160000,False,2,,N_EU_N_22_IN,tax_group_0
+account_tax_D24n2,gd_chart,Nabava EU 22% - neto – izstopni,N_EU_N_22_OUT,percent,-22,none,False,gd_acc_260000,gd_acc_260000,False,2,,N_EU_N_22_OUT,tax_group_0
+account_tax_D24n,gd_chart,Nabava EU 22% - neto,N_EU_N_22,group,0,purchase,False,,,False,1,"account_tax_D24n1,account_tax_D24n2",N_EU_N_22,tax_group_0
+account_tax_D25b1,gd_chart,"Nabava EU 9,5% - bruto – vstopni",N_EU_B_9_5_IN,percent,9.5,none,True,gd_acc_160000,gd_acc_160000,False,2,,N_EU_B_9_5_IN,tax_group_0
+account_tax_D25b2,gd_chart,"Nabava EU 9,5% - bruto – izstopni",N_EU_B_9_5_OUT,percent,-9.5,none,True,gd_acc_260000,gd_acc_260000,False,2,,N_EU_B_9_5_OUT,tax_group_0
+account_tax_D25b,gd_chart,"Nabava EU 9,5% - bruto",N_EU_B_9_5,group,0,purchase,True,,,False,1,"account_tax_D25b1,account_tax_D25b2",N_EU_B_9_5,tax_group_0
+account_tax_D25n1,gd_chart,"Nabava EU 9,5% - neto – vstopni",N_EU_N_9_5_IN,percent,9.5,none,False,gd_acc_160000,gd_acc_160000,False,2,,N_EU_N_9_5_IN,tax_group_0
+account_tax_D25n2,gd_chart,"Nabava EU 9,5% - neto – izstopni",N_EU_N_9_5_OUT,percent,-9.5,none,False,gd_acc_260000,gd_acc_260000,False,2,,N_EU_N_9_5_OUT,tax_group_0
+account_tax_D25n,gd_chart,"Nabava EU 9,5% - neto",N_EU_N_9_5,group,0,purchase,False,,,False,1,"account_tax_D25n1,account_tax_D25n2",N_EU_N_9_5,tax_group_0
+account_tax_D30,gd_chart,Izstopni DDV 0%,NS_0,percent,0,sale,False,,,False,1,,NS_0,tax_group_0
+account_tax_D31,gd_chart,Vstopni DDV 0%,NN_0,percent,0,purchase,False,,,False,1,,NN_0,tax_group_0
