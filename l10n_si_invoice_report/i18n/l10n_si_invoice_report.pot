@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* l10n_si_invoice_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-16 13:03+0000\n"
+"PO-Revision-Date: 2019-10-16 13:03+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "<strong>Invoice Date:</strong>"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "<strong>Service Date:</strong>"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Amount"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Base"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice_creation
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_debt_form
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_debt_form
+msgid "Creation Date"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice_received
+msgid "Date Received"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,help:l10n_si_invoice_report.field_account_invoice__date_invoice
+msgid "Date when debt relationship between customer and supplier started."
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,help:l10n_si_invoice_report.field_account_invoice__date_invoice_creation
+msgid "Date when invoice was created."
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,help:l10n_si_invoice_report.field_account_invoice__date_invoice_received
+msgid "Date when supplier invoice was received."
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model,name:l10n_si_invoice_report.model_account_invoice
+msgid "Invoice"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_debt_form
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_debt_form
+msgid "Service Date"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Tax"
+msgstr ""
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Tax Summary"
+msgstr ""
+

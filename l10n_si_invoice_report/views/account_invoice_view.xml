@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--
+©2019 Luxim d.o.o., Slovenia <https://luxim.si>
+Author: Matjaž Mozetič <matjaz@luxim.si>
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html).
+-->
+    <record id="invoice_supplier_debt_form" model="ir.ui.view">
+        <field name="name">account.invoice.supplier.debt.form</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_supplier_form"/>
+        <field name="arch" type="xml">
+            <field name="date_invoice" position="replace">
+                <field name="date_invoice" string="Service Date"/>
+                <field name="date_invoice_creation" string="Creation Date"/>
+                <field name="date_invoice_received"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="invoice_debt_form" model="ir.ui.view">
+        <field name="name">account.invoice.debt.form</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_form"/>
+        <field name="arch" type="xml">
+            <field name="date_invoice" position="replace">
+                <field name="date_invoice" string="Service Date"/>
+                <field name="date_invoice_creation" string="Creation Date"/>
+            </field>
+        </field>
+    </record>
+
+    <template id="report_invoice_service_date"
+              inherit_id="account.report_invoice_document" >
+        <xpath expr="//div[@t-if='o.date_invoice']"
+               position="replace">
+            <div class="col-xs-2" t-if="o.date_invoice_creation">
+                <strong>Invoice Date:</strong>
+                <p t-field="o.date_invoice"/>
+            </div>
+            <div class="col-xs-2" t-if="o.date_invoice">
+                <strong>Service Date:</strong>
+                <p t-field="o.date_invoice"/>
+            </div>
+        </xpath>
+        <xpath expr="//p[@t-if='o.comment']"
+               position="before">
+            <div class="row" t-if="len(o.tax_line_ids) > 0" id="tax_summary">
+                <div class="col-xs-8">
+                    <table class="table table-condensed">
+                        <thead id="tax_summary_header">
+                            <tr>
+                                <th>Tax Summary</th>
+                                <th>Tax</th>
+                                <th class="text-right">Base</th>
+                                <th class="text-right">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr t-foreach="o.tax_line_ids" t-as="t">
+                                <td><span t-field="t.tax_id.description"/></td>
+                                <td><span t-field="t.tax_id.name"/></td>
+                                <td class="text-right">
+                                    <span t-field="t.base"
+                                          t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="t.amount"
+                                          t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
