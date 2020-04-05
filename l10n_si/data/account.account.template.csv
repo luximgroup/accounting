@@ -1,385 +1,528 @@
-code,id,user_type_id/id,name,reconcile,chart_template_id/id
-000000,gd_acc_000000,account.data_account_type_non_current_assets,DOBRO IME,0,gd_chart
-002000,gd_acc_002000,account.data_account_type_non_current_assets,ODLOŽENI STROŠKI RAZVIJANJA,0,gd_chart
-003000,gd_acc_003000,account.data_account_type_non_current_assets,PREMOŽENJSKE PRAVICE,0,gd_chart
-005000,gd_acc_005000,account.data_account_type_non_current_assets,DRUGA NEOPREDMETENA SREDSTVA (TUDI EMISIJSKI KUPONI),0,gd_chart
-007000,gd_acc_007000,account.data_account_type_non_current_assets,DOLGOROČNE AKTIVNE ČASOVNE RAZMEJITVE,0,gd_chart
-008000,gd_acc_008000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI NEOPREDMETENIH SREDSTEV ZARADI AMORTIZIRANJA,0,gd_chart
-009000,gd_acc_009000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI NEOPREDMETENIH SREDSTEV,0,gd_chart
-010000,gd_acc_010000,account.data_account_type_non_current_assets,"NALOŽBENE NEPREMIČNINE, VREDNOTENE PO MODELU NABAVNE VREDNOSTI",0,gd_chart
-011000,gd_acc_011000,account.data_account_type_non_current_assets,"NALOŽBENE NEPREMIČNINE, VREDNOTENE PO MODELU POŠTENE VREDNOSTI",0,gd_chart
-015000,gd_acc_015000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI NALOŽBENIH NEPREMIČNIN ZARADI AMORTIZIRANJA,0,gd_chart
-019000,gd_acc_019000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI NALOŽBENIH NEPREMIČNIN,0,gd_chart
-020000,gd_acc_020000,account.data_account_type_fixed_assets,"ZEMLJIŠČA, VREDNOTENA PO MODELU NABAVNE VREDNOSTI",0,gd_chart
-021000,gd_acc_021000,account.data_account_type_fixed_assets,"ZGRADBE, VREDNOTENE PO MODELU NABAVNE VREDNOSTI",0,gd_chart
-022000,gd_acc_022000,account.data_account_type_fixed_assets,"ZEMLJIŠČA, VREDNOTENA PO MODELU PREVREDNOTENJA",0,gd_chart
-023000,gd_acc_023000,account.data_account_type_fixed_assets,"ZGRADBE, VREDNOTENE PO MODELU PREVREDNOTENJA",0,gd_chart
-027000,gd_acc_027000,account.data_account_type_fixed_assets,NEPREMIČNINE V GRADNJI OZIROMA IZDELAVI,0,gd_chart
-031000,gd_acc_031000,account.data_account_type_fixed_assets,OSLABITEV VREDNOSTI ZEMLJIŠČ,0,gd_chart
-032000,gd_acc_032000,account.data_account_type_fixed_assets,"POPRAVEK VREDNOSTI ZEMLJIŠČ ZARADI AMORTIZIRANJA (KAMNOLOMI, ODLAGALIŠČA ODPADKOV)",0,gd_chart
-035000,gd_acc_035000,account.data_account_type_fixed_assets,POPRAVEK VREDNOSTI ZGRADB ZARADI AMORTIZIRANJA,0,gd_chart
-039000,gd_acc_039000,account.data_account_type_fixed_assets,OSLABITEV VREDNOSTI ZGRADB,0,gd_chart
-040000,gd_acc_040000,account.data_account_type_non_current_assets,"OPREMA IN NADOMESTNI DELI, VREDNOTENI PO MODELU NABAVNE VREDNOSTI",0,gd_chart
-041000,gd_acc_041000,account.data_account_type_non_current_assets,DROBNI INVENTAR,0,gd_chart
-042000,gd_acc_042000,account.data_account_type_non_current_assets,"OPREMA IN NADOMESTNI DELI, VREDNOTENI PO MODELU PREVREDNOTENJA",0,gd_chart
-043000,gd_acc_043000,account.data_account_type_non_current_assets,BIOLOŠKA SREDSTVA,0,gd_chart
-044000,gd_acc_044000,account.data_account_type_non_current_assets,VLAGANJA V OPREDMETENA OSNOVNA SREDSTVA V TUJI LASTI,0,gd_chart
-045000,gd_acc_045000,account.data_account_type_non_current_assets,DRUGA OPREDMETENA OSNOVNA SREDSTVA,0,gd_chart
-047000,gd_acc_047000,account.data_account_type_non_current_assets,OPREMA IN DRUGA OPREDMETENA OSNOVNA SREDSTVA V GRADNJI OZIROMA IZDELAVI,0,gd_chart
-050000,gd_acc_050000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI OPREME IN NADOMESTNIH DELOV ZARADI AMORTIZIRANJA,0,gd_chart
-051000,gd_acc_051000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI DROBNEGA INVENTARJA ZARADI AMORTIZIRANJA,0,gd_chart
-052000,gd_acc_052000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI OPREME IN NADOMESTNIH DELOV,0,gd_chart
-053000,gd_acc_053000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI BIOLOŠKIH SREDSTEV,0,gd_chart
-054000,gd_acc_054000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI VLAGANJ V OPREDMETENA OSNOVNA SREDSTVA V TUJI LASTI,0,gd_chart
-055000,gd_acc_055000,account.data_account_type_non_current_assets,POPRAVEK VREDNOSTI DRUGIH OPREDMETENIH OSNOVNIH SREDSTEV ZARADI AMORTIZIRANJA,0,gd_chart
-059000,gd_acc_059000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI DRUGIH OPREDMETENIH OSNOVNIH SREDSTEV,0,gd_chart
-060000,gd_acc_060000,account.data_account_type_non_current_assets,"DOLGOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE DRUŽB V SKUPINI, RAZPOREJENE IN IZMERJENE PO NABAVNI VREDNOSTI",0,gd_chart
-061000,gd_acc_061000,account.data_account_type_non_current_assets,"DOLGOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE DRUŽB V SKUPINI, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-062000,gd_acc_062000,account.data_account_type_non_current_assets,"DOLGOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE DRUŽB V SKUPINI, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK KAPITALA",0,gd_chart
-063000,gd_acc_063000,account.data_account_type_non_current_assets,"DOLGOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB, RAZPOREJENE IN IZMERJENE PO NABAVNI VREDNOSTI",0,gd_chart
-064000,gd_acc_064000,account.data_account_type_non_current_assets,"DOLGOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-065000,gd_acc_065000,account.data_account_type_non_current_assets,"DOLGOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK KAPITALA",0,gd_chart
-066000,gd_acc_066000,account.data_account_type_non_current_assets,"DRUGE DOLGOROČNE FINANČNE NALOŽBE, RAZPOREJENE IN IZMERJENE PO NABAVNI VREDNOSTI",0,gd_chart
-067000,gd_acc_067000,account.data_account_type_non_current_assets,"DRUGE DOLGOROČNE FINANČNE NALOŽBE, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-068000,gd_acc_068000,account.data_account_type_non_current_assets,"DRUGE DOLGOROČNE FINANČNE NALOŽBE, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK KAPITALA",0,gd_chart
-069000,gd_acc_069000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI DOLGOROČNIH FINANČNIH NALOŽB,0,gd_chart
-070000,gd_acc_070000,account.data_account_type_non_current_assets,"DOLGOROČNA POSOJILA, DANA NA PODLAGI POSOJILNIH POGODB DRUŽBAM V SKUPINI, VKLJUČNO Z DOLGOROČNIMI TERJATVAMI IZ FINANČNEGA NAJEMA",0,gd_chart
-071000,gd_acc_071000,account.data_account_type_non_current_assets,"DOLGOROČNA POSOJILA, DANA NA PODLAGI POSOJILNIH POGODB PRIDRUŽENIM DRUŽBAM IN SKUPAJ OBVLADOVANIM DRUŽBAM, VKLJUČNO Z DOLGOROČNIMI TERJATVAMI IZ FINANČNEGA NAJEMA",0,gd_chart
-072000,gd_acc_072000,account.data_account_type_non_current_assets,"DOLGOROČNA POSOJILA, DANA DRUGIM, VKLJUČNO Z DOLGOROČNIMI TERJATVAMI IZ FINANČNEGA NAJEMA",0,gd_chart
-073000,gd_acc_073000,account.data_account_type_non_current_assets,"DOLGOROČNA POSOJILA, DANA Z ODKUPOM OBVEZNIC OD DRUŽB V SKUPINI",0,gd_chart
-074000,gd_acc_074000,account.data_account_type_non_current_assets,"DOLGOROČNA POSOJILA, DANA Z ODKUPOM OBVEZNIC OD PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB",0,gd_chart
-075000,gd_acc_075000,account.data_account_type_non_current_assets,"DOLGOROČNA POSOJILA, DANA Z ODKUPOM OBVEZNIC OD DRUGIH",0,gd_chart
-076000,gd_acc_076000,account.data_account_type_non_current_assets,DOLGOROČNE TERJATVE ZA NEVPLAČANI VPOKLICANI KAPITAL,0,gd_chart
-077000,gd_acc_077000,account.data_account_type_non_current_assets,DRUGA DOLGOROČNO VLOŽENA SREDSTVA,0,gd_chart
-078000,gd_acc_078000,account.data_account_type_non_current_assets,DANI DOLGOROČNI DEPOZITI,0,gd_chart
-079000,gd_acc_079000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI DANIH DOLGOROČNIH POSOJIL,0,gd_chart
-080000,gd_acc_080000,account.data_account_type_non_current_assets,"DOLGOROČNI BLAGOVNI KREDITI, DANI V DRŽAVI",0,gd_chart
-081000,gd_acc_081000,account.data_account_type_non_current_assets,"DOLGOROČNI BLAGOVNI KREDITI, DANI V TUJINI",0,gd_chart
-082000,gd_acc_082000,account.data_account_type_non_current_assets,DANI DOLGOROČNI POTROŠNIŠKI KREDITI,0,gd_chart
-083000,gd_acc_083000,account.data_account_type_non_current_assets,DANI DOLGOROČNI PREDUJMI,0,gd_chart
-084000,gd_acc_084000,account.data_account_type_non_current_assets,DANE DOLGOROČNE VARŠČINE,0,gd_chart
-086000,gd_acc_086000,account.data_account_type_non_current_assets,DRUGE DOLGOROČNE POSLOVNE TERJATVE,0,gd_chart
-089000,gd_acc_089000,account.data_account_type_non_current_assets,OSLABITEV VREDNOSTI DOLGOROČNIH POSLOVNIH TERJATEV,0,gd_chart
-090000,gd_acc_090000,account.data_account_type_non_current_assets,TERJATVE ZA ODLOŽENI DAVEK IZ ODBITNIH ZAČASNIH RAZLIK,0,gd_chart
-091000,gd_acc_091000,account.data_account_type_non_current_assets,"TERJATVE ZA ODLOŽENI DAVEK IZ NEIZRABLJENIH DAVČNIH IZGUB, PRENESENIH V NASLEDNJA DAVČNA OBDOBJA",0,gd_chart
-092000,gd_acc_092000,account.data_account_type_non_current_assets,"TERJATVE ZA ODLOŽENI DAVEK IZ DAVČNIH DOBROPISOV, PRENESENIH V NASLEDNJA DAVČNA OBDOBJA",0,gd_chart
-100000,gd_acc_100000,account.data_account_type_liquidity,"DENARNA SREDSTVA V BLAGAJNI, RAZEN DEVIZNIH SREDSTEV",0,gd_chart
-101000,gd_acc_101000,account.data_account_type_liquidity,DEVIZNA SREDSTVA V BLAGAJNI,0,gd_chart
-102000,gd_acc_102000,account.data_account_type_liquidity,IZDANI ČEKI (ODBITNA POSTAVKA),0,gd_chart
-103000,gd_acc_103000,account.data_account_type_liquidity,PREJETI ČEKI,0,gd_chart
-104000,gd_acc_104000,account.data_account_type_liquidity,NETVEGANI TAKOJ UDENARLJIVI DOLŽNIŠKI VREDNOSTNI PAPIRJI,0,gd_chart
+code,id,user_type_id/id,Name,reconcile,chart_template_id/id
+000000,gd_acc_000000,account.data_account_type_non_current_assets,Dobro ime,0,gd_chart
+001000,gd_acc_001000,account.data_account_type_non_current_assets,Usredstveni stroški naložb v tuja opredmetena osnovna sredstva ,0,gd_chart
+002000,gd_acc_002000,account.data_account_type_non_current_assets,Odloženi stroški razvijanja,0,gd_chart
+003000,gd_acc_003000,account.data_account_type_non_current_assets,Premoženjske in druge pravice ,0,gd_chart
+005000,gd_acc_005000,account.data_account_type_non_current_assets,Druga neopredmetena sredstva (tudi emisijski kuponi),0,gd_chart
+007000,gd_acc_007000,account.data_account_type_non_current_assets,Dolgoročne aktivne časovne razmejitve,0,gd_chart
+008000,gd_acc_008000,account.data_account_type_non_current_assets,Popravek vrednosti neopredmetenih sredstev zaradi amortiziranja,0,gd_chart
+009000,gd_acc_009000,account.data_account_type_non_current_assets,Oslabitev vrednosti neopredmetenih sredstev,0,gd_chart
+010000,gd_acc_010000,account.data_account_type_non_current_assets,"Naložbene nepremičnine, vrednotene po modelu nabavne vrednosti",0,gd_chart
+011000,gd_acc_011000,account.data_account_type_non_current_assets,"Naložbene nepremičnine, vrednotene po modelu poštene vrednosti",0,gd_chart
+015000,gd_acc_015000,account.data_account_type_non_current_assets,Popravek vrednosti naložbenih nepremičnin zaradi amortiziranja,0,gd_chart
+017000,gd_acc_017000,account.data_account_type_non_current_assets,Naložbene nepremičnine v gradnji oziroma izdelavi ,0,gd_chart
+019000,gd_acc_019000,account.data_account_type_non_current_assets,Oslabitev vrednosti naložbenih nepremičnin,0,gd_chart
+020000,gd_acc_020000,account.data_account_type_fixed_assets,"Zemljišča, vrednotena po modelu nabavne vrednosti",0,gd_chart
+020100,gd_acc_020100,account.data_account_type_fixed_assets,Prevrednotenje zemljišč zaradi okrepitve ,0,gd_chart
+020200,gd_acc_020200,account.data_account_type_fixed_assets,Prevrednotenje zemljišč zaradi oslabitve ,0,gd_chart
+021000,gd_acc_021000,account.data_account_type_fixed_assets,"Zgradbe, vrednotene po modelu nabavne vrednosti",0,gd_chart
+021100,gd_acc_021100,account.data_account_type_fixed_assets,Prevrednotenje zgradb zaradi okrepitve,0,gd_chart
+021200,gd_acc_021200,account.data_account_type_fixed_assets,Prevrednotenje zgradb zaradi oslabitve ,0,gd_chart
+022000,gd_acc_022000,account.data_account_type_fixed_assets,"Zemljišča, vrednotena po modelu prevrednotenja",0,gd_chart
+023000,gd_acc_023000,account.data_account_type_fixed_assets,"Zgradbe, vrednotene po modelu prevrednotenja",0,gd_chart
+026000,gd_acc_026000,account.data_account_type_fixed_assets,Vlaganje v nepremičnine v tuji lasti,0,gd_chart
+027000,gd_acc_027000,account.data_account_type_fixed_assets,Nepremičnine v gradnji oziroma izdelavi,0,gd_chart
+031000,gd_acc_031000,account.data_account_type_fixed_assets,Popravek vrednosti zgradb zaradi amortiziranja,0,gd_chart
+031100,gd_acc_031100,account.data_account_type_fixed_assets,Popravek vrednosti zgradb zaradi okrepitve,0,gd_chart
+031200,gd_acc_031200,account.data_account_type_fixed_assets,Popravek vrednosti zgradb zaradi oslabitve,0,gd_chart
+032000,gd_acc_032000,account.data_account_type_fixed_assets,"Popravek vrednosti zemljišč zaradi amortiziranja (kamnolomi, odlagališča odpadkov)",0,gd_chart
+035000,gd_acc_035000,account.data_account_type_fixed_assets,Popravek vrednosti zgradb,0,gd_chart
+035100,gd_acc_035100,account.data_account_type_fixed_assets,Popravek vrednosti zgradb-leasing,0,gd_chart
+036000,gd_acc_036000,account.data_account_type_fixed_assets,Popravek vrednosti vlaganj v nepremičnine v tuji lasti,0,gd_chart
+039000,gd_acc_039000,account.data_account_type_fixed_assets,Oslabitev vrednosti zgradb,0,gd_chart
+040000,gd_acc_040000,account.data_account_type_non_current_assets,Oprema in nadomestni deli,0,gd_chart
+040100,gd_acc_040100,account.data_account_type_non_current_assets,Oprema in nadomestni deli-leasing,0,gd_chart
+040200,gd_acc_040200,account.data_account_type_non_current_assets,Prevrednotenje opreme in nadomestnih delov zaradi oslabitve,0,gd_chart
+041000,gd_acc_041000,account.data_account_type_non_current_assets,Drobni inventar,0,gd_chart
+042000,gd_acc_042000,account.data_account_type_non_current_assets,"Oprema in nadomestni deli, vrednoteni po modelu prevrednotenja",0,gd_chart
+043000,gd_acc_043000,account.data_account_type_non_current_assets,Biološka sredstva – večletni nasadi,0,gd_chart
+044000,gd_acc_044000,account.data_account_type_non_current_assets,Biološka sredstva – osnovna čreda,0,gd_chart
+045000,gd_acc_045000,account.data_account_type_non_current_assets,Druga opredmetena osnovna sredstva,0,gd_chart
+045100,gd_acc_045100,account.data_account_type_non_current_assets,Druga opredmetena osnovna sredstva-leasing,0,gd_chart
+046000,gd_acc_046000,account.data_account_type_non_current_assets,Vlaganja v opredmetena osnovna sredstva v tuji lasti,0,gd_chart
+047000,gd_acc_047000,account.data_account_type_non_current_assets,Oprema in druga opredmetena osnovna sredstva v gradnji oziroma izdelavi,0,gd_chart
+048000,gd_acc_048000,account.data_account_type_non_current_assets,"Umetniška dela in drugi predmeti kulturne in/ali zgodovinske vrednosti, ki se ne amortizirajo",0,gd_chart
+050000,gd_acc_050000,account.data_account_type_non_current_assets,Popravek vrednosti opreme in nadomestnih delov zaradi amortiziranja,0,gd_chart
+050100,gd_acc_050100,account.data_account_type_non_current_assets,Popravek vrednosti opreme in nadomestnih delov zaradi amortiziranja – leasing,0,gd_chart
+051000,gd_acc_051000,account.data_account_type_non_current_assets,Popravek vrednosti drobnega inventarja zaradi amortiziranja,0,gd_chart
+052000,gd_acc_052000,account.data_account_type_non_current_assets,Oslabitev vrednosti opreme in nadomestnih delov,0,gd_chart
+053000,gd_acc_053000,account.data_account_type_non_current_assets,Popravek vrednosti bioloških sredstev – osnovna čreda,0,gd_chart
+054000,gd_acc_054000,account.data_account_type_non_current_assets,Popravek vrednosti bioloških sredstev – večletni nasadi,0,gd_chart
+055000,gd_acc_055000,account.data_account_type_non_current_assets,Popravek vrednosti drugih opredmetenih osnovnih sredstev zaradi amortiziranja,0,gd_chart
+055100,gd_acc_055100,account.data_account_type_non_current_assets,Popravek vrednosti drugih opredmetenih osnovnih sredstev zaradi amortiziranja – leasing,0,gd_chart
+056000,gd_acc_056000,account.data_account_type_non_current_assets,Popravek vrednosti vlaganj v opredmetena osnovna sredstva v tuji lasti,0,gd_chart
+058000,gd_acc_058000,account.data_account_type_non_current_assets,Oslabitev vrednosti bioloških sredstev,0,gd_chart
+059000,gd_acc_059000,account.data_account_type_non_current_assets,Oslabitev vrednosti drugih opredmetenih osnovnih sredstev,0,gd_chart
+060000,gd_acc_060000,account.data_account_type_non_current_assets,"Dolgoročne finančne naložbe v delnice in deleže družb v skupini, razporejene in izmerjene po nabavni vrednosti",0,gd_chart
+061000,gd_acc_061000,account.data_account_type_non_current_assets,"Dolgoročne finančne naložbe v delnice in deleže družb v skupini, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",0,gd_chart
+062000,gd_acc_062000,account.data_account_type_non_current_assets,"Dolgoročne finančne naložbe v delnice in deleže družb v skupini, razporejene in izmerjene po pošteni vrednosti prek kapitala",0,gd_chart
+063000,gd_acc_063000,account.data_account_type_non_current_assets,"Dolgoročne finančne naložbe v delnice in deleže pridruženih družb in skupaj obvladovanih družb, razporejene in izmerjene po nabavni vrednosti",0,gd_chart
+064000,gd_acc_064000,account.data_account_type_non_current_assets,"Dolgoročne finančne naložbe v delnice in deleže pridruženih družb in skupaj obvladovanih družb, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",0,gd_chart
+065000,gd_acc_065000,account.data_account_type_non_current_assets,"Dolgoročne finančne naložbe v delnice in deleže pridruženih družb in skupaj obvladovanih družb, razporejene in izmerjene po pošteni vrednosti prek kapitala",0,gd_chart
+066000,gd_acc_066000,account.data_account_type_non_current_assets,"Druge dolgoročne finančne naložbe, razporejene in izmerjene po nabavni vrednosti",0,gd_chart
+067000,gd_acc_067000,account.data_account_type_non_current_assets,"Druge dolgoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",0,gd_chart
+068000,gd_acc_068000,account.data_account_type_non_current_assets,"Druge dolgoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek kapitala",0,gd_chart
+069000,gd_acc_069000,account.data_account_type_non_current_assets,Oslabitev vrednosti dolgoročnih finančnih naložb,0,gd_chart
+070000,gd_acc_070000,account.data_account_type_non_current_assets,"Dolgoročna posojila, dana na podlagi posojilnih pogodb družbam v skupini, vključno z dolgoročnimi terjatvami iz finančnega najema",0,gd_chart
+071000,gd_acc_071000,account.data_account_type_non_current_assets,"Dolgoročna posojila, dana na podlagi posojilnih pogodb pridruženim družbam in skupaj obvladovanim družbam, vključno z dolgoročnimi terjatvami iz finančnega najema",0,gd_chart
+072000,gd_acc_072000,account.data_account_type_non_current_assets,"Dolgoročna posojila, dana drugim, vključno z dolgoročnimi terjatvami iz finančnega najema",0,gd_chart
+073000,gd_acc_073000,account.data_account_type_non_current_assets,"Dolgoročna posojila, dana z odkupom obveznic od družb v skupini",0,gd_chart
+074000,gd_acc_074000,account.data_account_type_non_current_assets,"Dolgoročna posojila, dana z odkupom obveznic od pridruženih družb in skupaj obvladovanih družb",0,gd_chart
+075000,gd_acc_075000,account.data_account_type_non_current_assets,"Dolgoročna posojila, dana z odkupom obveznic od drugih",0,gd_chart
+076000,gd_acc_076000,account.data_account_type_non_current_assets,Dolgoročne terjatve za nevplačani vpoklicani kapital,0,gd_chart
+077000,gd_acc_077000,account.data_account_type_non_current_assets,Druga dolgoročno vložena sredstva,0,gd_chart
+078000,gd_acc_078000,account.data_account_type_non_current_assets,Dani dolgoročni depoziti,0,gd_chart
+079000,gd_acc_079000,account.data_account_type_non_current_assets,Oslabitev vrednosti danih dolgoročnih posojil,0,gd_chart
+080000,gd_acc_080000,account.data_account_type_non_current_assets,"Dolgoročni blagovni krediti, dani v državi",0,gd_chart
+081000,gd_acc_081000,account.data_account_type_non_current_assets,"Dolgoročni blagovni krediti, dani v tujini",0,gd_chart
+082000,gd_acc_082000,account.data_account_type_non_current_assets,Dani dolgoročni potrošniški krediti,0,gd_chart
+083000,gd_acc_083000,account.data_account_type_non_current_assets,Dani dolgoročni predujmi,0,gd_chart
+084000,gd_acc_084000,account.data_account_type_non_current_assets,Dane dolgoročne varščine,0,gd_chart
+086000,gd_acc_086000,account.data_account_type_non_current_assets,Druge dolgoročne poslovne terjatve,0,gd_chart
+089000,gd_acc_089000,account.data_account_type_non_current_assets,Oslabitev vrednosti dolgoročnih poslovnih terjatev,0,gd_chart
+090000,gd_acc_090000,account.data_account_type_non_current_assets,Terjatve za odloženi davek iz odbitnih začasnih razlik,0,gd_chart
+091000,gd_acc_091000,account.data_account_type_non_current_assets,"Terjatve za odloženi davek iz neizrabljenih davčnih izgub, prenesenih v naslednja davčna obdobja",0,gd_chart
+091900,gd_acc_091900,account.data_account_type_non_current_assets,Terjatve na lastniškem računu,0,gd_chart
+092000,gd_acc_092000,account.data_account_type_non_current_assets,"Terjatve za odloženi davek iz davčnih dobropisov, prenesenih v naslednja davčna obdobja",0,gd_chart
+100000,gd_acc_100000,account.data_account_type_liquidity,"Denarna sredstva na računih, razen deviznih sredstev",0,gd_chart
+100010,gd_acc_100010,account.data_account_type_liquidity,Denarna sredstva v blagajni,0,gd_chart
+100100,gd_acc_100100,account.data_account_type_liquidity,Pomožna blagajna,0,gd_chart
+100900,gd_acc_100900,account.data_account_type_liquidity,Prehodna blagajna,0,gd_chart
+101000,gd_acc_101000,account.data_account_type_liquidity,Devizna sredstva v blagajni,0,gd_chart
+102000,gd_acc_102000,account.data_account_type_liquidity,Izdani čeki (odbitna postavka),0,gd_chart
+103000,gd_acc_103000,account.data_account_type_liquidity,Prejeti čeki,0,gd_chart
+104000,gd_acc_104000,account.data_account_type_liquidity,Netvegani takoj udenarljivi dolžniški vrednostni papirji,0,gd_chart
 109000,gd_acc_109000,account.data_account_type_current_assets,Denar na poti,1,gd_chart
-110000,gd_acc_110000,account.data_account_type_liquidity,"DENARNA SREDSTVA NA RAČUNIH, RAZEN DEVIZNIH",0,gd_chart
-111000,gd_acc_111000,account.data_account_type_liquidity,"KRATKOROČNI DEPOZITI OZIROMA DEPOZITI NA ODPOKLIC, RAZEN DEVIZNIH",0,gd_chart
-112000,gd_acc_112000,account.data_account_type_liquidity,DEVIZNA SREDSTVA NA RAČUNIH,0,gd_chart
-113000,gd_acc_113000,account.data_account_type_liquidity,KRATKOROČNI DEVIZNI DEPOZITI OZIROMA DEVIZNI DEPOZITI NA ODPOKLIC,0,gd_chart
-114000,gd_acc_114000,account.data_account_type_liquidity,DENARNA SREDSTVA NA POSEBNIH RAČUNIH OZIROMA ZA POSEBNE NAMENE,0,gd_chart
-120000,gd_acc_120000,account.data_account_type_receivable,KRATKOROČNE TERJATVE DO KUPCEV V DRŽAVI,1,gd_chart
-121000,gd_acc_121000,account.data_account_type_receivable,KRATKOROČNE TERJATVE DO KUPCEV V TUJINI,1,gd_chart
-122000,gd_acc_122000,account.data_account_type_current_assets,"KRATKOROČNI BLAGOVNI KREDITI, DANI KUPCEM V DRŽAVI",0,gd_chart
-123000,gd_acc_123000,account.data_account_type_current_assets,"KRATKOROČNI BLAGOVNI KREDITI, DANI KUPCEM V TUJINI",0,gd_chart
-124000,gd_acc_124000,account.data_account_type_current_assets,"KRATKOROČNI POTROŠNIŠKI KREDITI, DANI KUPCEM V DRŽAVI",0,gd_chart
-129000,gd_acc_129000,account.data_account_type_current_assets,OSLABITEV VREDNOSTI KRATKOROČNIH TERJATEV DO KUPCEV,0,gd_chart
-130000,gd_acc_130000,account.data_account_type_prepayments,"KRATKOROČNI PREDUJMI, DANI ZA OPREDMETENA OSNOVNA SREDSTVA",0,gd_chart
-131000,gd_acc_131000,account.data_account_type_prepayments,"KRATKOROČNI PREDUJMI, DANI ZA NEOPREDMETENA SREDSTVA",0,gd_chart
-132000,gd_acc_132000,account.data_account_type_prepayments,"KRATKOROČNI PREDUJMI, DANI ZA ZALOGE MATERIALA IN BLAGA TER ŠE NE OPRAVLJENE STORITVE",0,gd_chart
-133000,gd_acc_133000,account.data_account_type_prepayments,DRUGI DANI KRATKOROČNI PREDUJMI IN PREPLAČILA,1,gd_chart
-134000,gd_acc_134000,account.data_account_type_prepayments,DANE KRATKOROČNE VARŠČINE,0,gd_chart
-139000,gd_acc_139000,account.data_account_type_prepayments,OSLABITEV VREDNOSTI DANIH KRATKOROČNIH PREDUJMOV IN VARŠČIN,0,gd_chart
-140000,gd_acc_140000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE DO IZVOZNIKOV,0,gd_chart
-141000,gd_acc_141000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE IZ UVOZA ZA TUJ RAČUN,0,gd_chart
-142000,gd_acc_142000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE IZ KOMISIJSKE IN KONSIGNACIJSKE PRODAJE,0,gd_chart
-145000,gd_acc_145000,account.data_account_type_current_assets,DRUGE KRATKOROČNE TERJATVE IZ POSLOVANJA ZA TUJ RAČUN,0,gd_chart
-149000,gd_acc_149000,account.data_account_type_current_assets,OSLABITEV VREDNOSTI KRATKOROČNIH TERJATEV IZ POSLOVANJA ZA TUJ RAČUN,0,gd_chart
-150000,gd_acc_150000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE ZA OBRESTI,0,gd_chart
-151000,gd_acc_151000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE ZA DIVIDENDE,0,gd_chart
-152000,gd_acc_152000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE ZA DRUGE DELEŽE V DOBIČKU,0,gd_chart
-155000,gd_acc_155000,account.data_account_type_current_assets,"DRUGE KRATKOROČNE TERJATVE, POVEZANE S FINANČNIMI PRIHODKI",0,gd_chart
-159000,gd_acc_159000,account.data_account_type_current_assets,"OSLABITEV VREDNOSTI KRATKOROČNIH TERJATEV, POVEZANIH S FINANČNIMI PRIHODKI",0,gd_chart
-160000,gd_acc_160000,account.data_account_type_current_assets,KRATKOROČNE TERJATVE ZA ODBITNI DDV,0,gd_chart
-160001,gd_acc_160001,account.data_account_type_current_assets,KRATKOROČNE TERJATVE ZA NEODBITNI DDV,0,gd_chart
-161000,gd_acc_161000,account.data_account_type_current_assets,"KRATKOROČNE TERJATVE ZA DAVEK OD DOHODKOV PRAVNIH OSEB, VKLJUČNO Z DAVKOM, PLAČANIM V TUJINI",0,gd_chart
-162000,gd_acc_162000,account.data_account_type_current_assets,DRUGE KRATKOROČNE TERJATVE DO DRŽAVNIH IN DRUGIH INŠTITUCIJ,0,gd_chart
-165000,gd_acc_165000,account.data_account_type_current_assets,OSTALE KRATKOROČNE TERJATVE,0,gd_chart
-166000,gd_acc_166000,account.data_account_type_current_assets,"KRATKOROČNE TERJATVE ZA DDV, VRNJEN TUJCEM",0,gd_chart
-167000,gd_acc_167000,account.data_account_type_current_assets,"KRATKOROČNE TERJATVE ZA DDV, PLAČAN V TUJINI",0,gd_chart
-169000,gd_acc_169000,account.data_account_type_current_assets,OSLABITEV VREDNOSTI DRUGIH KRATKOROČNIH TERJATEV,0,gd_chart
-170000,gd_acc_170000,account.data_account_type_current_assets,"KRATKOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE DRUŽB V SKUPINI, RAZPOREJENE IN IZMERJENE PO NABAVNI VREDNOSTI",0,gd_chart
-171000,gd_acc_171000,account.data_account_type_current_assets,"KRATKOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE DRUŽB V SKUPINI, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-172000,gd_acc_172000,account.data_account_type_current_assets,"KRATKOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE DRUŽB V SKUPINI, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK KAPITALA",0,gd_chart
-173000,gd_acc_173000,account.data_account_type_current_assets,"KRATKOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB, RAZPOREJENE IN IZMERJENE PO NABAVNI VREDNOSTI",0,gd_chart
-174000,gd_acc_174000,account.data_account_type_current_assets,"KRATKOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-175000,gd_acc_175000,account.data_account_type_current_assets,"KRATKOROČNE FINANČNE NALOŽBE V DELNICE IN DELEŽE PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK KAPITALA",0,gd_chart
-176000,gd_acc_176000,account.data_account_type_current_assets,"DRUGE KRATKOROČNE FINANČNE NALOŽBE, RAZPOREJENE IN IZMERJENE PO NABAVNI VREDNOSTI",0,gd_chart
-177000,gd_acc_177000,account.data_account_type_current_assets,"DRUGE KRATKOROČNE FINANČNE NALOŽBE, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-178000,gd_acc_178000,account.data_account_type_current_assets,"DRUGE KRATKOROČNE FINANČNE NALOŽBE, RAZPOREJENE IN IZMERJENE PO POŠTENI VREDNOSTI PREK KAPITALA",0,gd_chart
-179000,gd_acc_179000,account.data_account_type_current_assets,OSLABITEV VREDNOSTI KRATKOROČNIH FINANČNIH NALOŽB,0,gd_chart
-180000,gd_acc_180000,account.data_account_type_current_assets,"KRATKOROČNA POSOJILA, DANA NA PODLAGI POSOJILNIH POGODB DRUŽBAM V SKUPINI",0,gd_chart
-181000,gd_acc_181000,account.data_account_type_current_assets,"KRATKOROČNA POSOJILA, DANA NA PODLAGI POSOJILNIH POGODB PRIDRUŽENIM DRUŽBAM IN SKUPAJ OBVLADOVANIM DRUŽBAM",0,gd_chart
-182000,gd_acc_182000,account.data_account_type_current_assets,"KRATKOROČNA POSOJILA, DANA DRUGIM",0,gd_chart
-183000,gd_acc_183000,account.data_account_type_current_assets,KRATKOROČNI DEPOZITI V BANKAH IN DRUGIH FINANČNIH ORGANIZACIJAH,0,gd_chart
-184000,gd_acc_184000,account.data_account_type_current_assets,KRATKOROČNO DANA POSOJILA Z ODKUPOM OBVEZNIC,0,gd_chart
-185000,gd_acc_185000,account.data_account_type_current_assets,PREJETE MENICE,0,gd_chart
-186000,gd_acc_186000,account.data_account_type_current_assets,KRATKOROČNO DANA POSOJILA Z ODKUPOM DRUGIH DOLŽNIŠKIH VREDNOSTNIH PAPIRJEV,0,gd_chart
-187000,gd_acc_187000,account.data_account_type_current_assets,KRATKOROČNO NEVPLAČANI VPOKLICANI KAPITAL,0,gd_chart
-189000,gd_acc_189000,account.data_account_type_current_assets,OSLABITEV VREDNOSTI KRATKOROČNIH POSOJIL,0,gd_chart
-190000,gd_acc_190000,account.data_account_type_current_assets,KRATKOROČNO ODLOŽENI STROŠKI OZIROMA ODHODKI,0,gd_chart
-191000,gd_acc_191000,account.data_account_type_current_assets,KRATKOROČNO NEZARAČUNANI PRIHODKI,0,gd_chart
-192000,gd_acc_192000,account.data_account_type_current_assets,VREDNOTNICE,0,gd_chart
-195000,gd_acc_195000,account.data_account_type_current_assets,DDV OD PREJETIH PREDUJMOV,0,gd_chart
-210000,gd_acc_210000,account.data_account_type_current_liabilities,"OBVEZNOSTI, VKLJUČENE V SKUPINE ZA ODTUJITEV",0,gd_chart
-220000,gd_acc_220000,account.data_account_type_payable,KRATKOROČNE OBVEZNOSTI (DOLGOVI) DO DOBAVITELJEV V DRŽAVI,1,gd_chart
-221000,gd_acc_221000,account.data_account_type_payable,KRATKOROČNE OBVEZNOSTI (DOLGOVI) DO DOBAVITELJEV V TUJINI,1,gd_chart
-222000,gd_acc_222000,account.data_account_type_current_liabilities,"KRATKOROČNI BLAGOVNI KREDITI, PREJETI V DRŽAVI",0,gd_chart
-223000,gd_acc_223000,account.data_account_type_current_liabilities,"KRATKOROČNI BLAGOVNI KREDITI, PREJETI V TUJINI",0,gd_chart
-224000,gd_acc_224000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI (DOLGOVI) ZA NEZARAČUNANE BLAGO IN STORITVE,0,gd_chart
-230000,gd_acc_230000,account.data_account_type_current_liabilities,PREJETI KRATKOROČNI PREDUJMI,1,gd_chart
-231000,gd_acc_231000,account.data_account_type_current_liabilities,PREJETE KRATKOROČNE VARŠČINE,0,gd_chart
-240000,gd_acc_240000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI IZ IZVOZA ZA TUJ RAČUN,0,gd_chart
-241000,gd_acc_241000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI DO UVOZNIKOV,0,gd_chart
-242000,gd_acc_242000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI IZ KOMISIJSKE IN KONSIGNACIJSKE PRODAJE,0,gd_chart
-245000,gd_acc_245000,account.data_account_type_current_liabilities,DRUGE KRATKOROČNE OBVEZNOSTI IZ POSLOVANJA ZA TUJ RAČUN,0,gd_chart
-250000,gd_acc_250000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI ZA VRAČUNANE IN NEOBRAČUNANE PLAČE,0,gd_chart
-251000,gd_acc_251000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI ZA ČISTE PLAČE IN NADOMESTILA PLAČ,0,gd_chart
-253000,gd_acc_253000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI ZA PRISPEVKE IZ KOSMATIH PLAČ IN NADOMESTIL PLAČ,0,gd_chart
-254000,gd_acc_254000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI ZA DAVKE IZ KOSMATIH PLAČ IN NADOMESTIL PLAČ,0,gd_chart
-255000,gd_acc_255000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI ZA DRUGE PREJEMKE IZ DELOVNEGA RAZMERJA,0,gd_chart
-256000,gd_acc_256000,account.data_account_type_current_liabilities,"KRATKOROČNE OBVEZNOSTI ZA PRISPEVKE IZ DRUGIH PREJEMKOV IZ DELOVNEGA RAZMERJA, KI SE NE OBRAČUNAVAJO SKUPAJ S PLAČAMI",0,gd_chart
-257000,gd_acc_257000,account.data_account_type_current_liabilities,"KRATKOROČNE OBVEZNOSTI ZA DAVEK IZ DRUGIH PREJEMKOV IZ DELOVNEGA RAZMERJA, KI SE NE OBRAČUNAVAJO SKUPAJ S PLAČAMI",0,gd_chart
-260000,gd_acc_260000,account.data_account_type_current_liabilities,OBVEZNOSTI ZA ZARAČUNANI DDV,0,gd_chart
-261000,gd_acc_261000,account.data_account_type_current_liabilities,"OBVEZNOSTI ZA DDV, CARINO IN DRUGE DAJATVE OD UVOŽENEGA BLAGA",0,gd_chart
-262000,gd_acc_262000,account.data_account_type_current_liabilities,OBVEZNOSTI ZA PRISPEVKE IZPLAČEVALCA,0,gd_chart
-263000,gd_acc_263000,account.data_account_type_current_liabilities,OBVEZNOSTI ZA DAVEK OD IZPLAČANIH PLAČ,0,gd_chart
-264000,gd_acc_264000,account.data_account_type_current_liabilities,OBVEZNOSTI ZA DAVEK OD DOHODKOV,0,gd_chart
-265000,gd_acc_265000,account.data_account_type_current_liabilities,OBVEZNOSTI ZA DAVČNI ODTEGLJAJ,0,gd_chart
-266000,gd_acc_266000,account.data_account_type_current_liabilities,DRUGE KRATKOROČNE OBVEZNOSTI DO DRŽAVNIH IN DRUGIH INŠTITUCIJ,0,gd_chart
-270000,gd_acc_270000,account.data_account_type_current_liabilities,"KRATKOROČNA POSOJILA, DOBLJENA PRI DRUŽBAH V SKUPINI",0,gd_chart
-271000,gd_acc_271000,account.data_account_type_current_liabilities,"KRATKOROČNA POSOJILA, DOBLJENA PRI PRIDRUŽENIH DRUŽBAH IN SKUPAJ OBVLADOVANIH DRUŽBAH",0,gd_chart
-272000,gd_acc_272000,account.data_account_type_current_liabilities,"KRATKOROČNA POSOJILA, DOBLJENA PRI BANKAH IN DRUŽBAH V DRŽAVI",0,gd_chart
-273000,gd_acc_273000,account.data_account_type_current_liabilities,"KRATKOROČNA POSOJILA, DOBLJENA PRI BANKAH IN DRUŽBAH V TUJINI",0,gd_chart
-274000,gd_acc_274000,account.data_account_type_current_liabilities,KRATKOROČNE FINANČNE OBVEZNOSTI V ZVEZI Z OBVEZNICAMI,0,gd_chart
-275000,gd_acc_275000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI V ZVEZI Z RAZDELITVIJO POSLOVNEGA IZIDA,0,gd_chart
-276000,gd_acc_276000,account.data_account_type_current_liabilities,KRATKOROČNE FINANČNE OBVEZNOSTI DO FIZIČNIH OSEB,0,gd_chart
-278000,gd_acc_278000,account.data_account_type_current_liabilities,OBVEZNOSTI IZ VPLAČILA KAPITALA DO VPISA V SODNI REGISTER,0,gd_chart
-279000,gd_acc_279000,account.data_account_type_current_liabilities,DRUGE KRATKOROČNE FINANČNE OBVEZNOSTI,0,gd_chart
-280000,gd_acc_280000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI ZA OBRESTI,0,gd_chart
-281000,gd_acc_281000,account.data_account_type_current_liabilities,KRATKOROČNE MENIČNE OBVEZNOSTI,0,gd_chart
-282000,gd_acc_282000,account.data_account_type_current_liabilities,KRATKOROČNE OBVEZNOSTI V ZVEZI Z ODTEGLJAJI OD PLAČ IN NADOMESTIL PLAČ ZAPOSLENCEM,0,gd_chart
-285000,gd_acc_285000,account.data_account_type_current_liabilities,OSTALE KRATKOROČNE POSLOVNE OBVEZNOSTI,0,gd_chart
-290000,gd_acc_290000,account.data_account_type_current_liabilities,VNAPREJ VRAČUNANI STROŠKI OZIROMA ODHODKI,0,gd_chart
-291000,gd_acc_291000,account.data_account_type_current_liabilities,KRATKOROČNO ODLOŽENI PRIHODKI,0,gd_chart
-295000,gd_acc_295000,account.data_account_type_current_liabilities,DDV OD DANIH PREDUJMOV,0,gd_chart
-300000,gd_acc_300000,account.data_account_type_current_assets,VREDNOST SUROVIN IN MATERIALA PO OBRAČUNIH DOBAVITELJEV,0,gd_chart
-301000,gd_acc_301000,account.data_account_type_current_assets,ODVISNI STROŠKI NABAVE SUROVIN IN MATERIALA,0,gd_chart
-302000,gd_acc_302000,account.data_account_type_current_assets,CARINA IN DRUGE UVOZNE DAVŠČINE OD SUROVIN IN MATERIALA,0,gd_chart
-303000,gd_acc_303000,account.data_account_type_current_assets,DDV IN DRUGE DAVŠČINE OD SUROVIN IN MATERIALA,0,gd_chart
-309000,gd_acc_309000,account.data_account_type_current_assets,OBRAČUN NABAVE SUROVIN IN MATERIALA,0,gd_chart
-310000,gd_acc_310000,account.data_account_type_current_assets,ZALOGE SUROVIN IN MATERIALA V SKLADIŠČU,0,gd_chart
-312000,gd_acc_312000,account.data_account_type_current_assets,ZALOGE SUROVIN IN MATERIALA NA POTI,0,gd_chart
-316000,gd_acc_316000,account.data_account_type_current_assets,ZALOGE SUROVIN IN MATERIALA V DODELAVI IN PREDELAVI,0,gd_chart
-319000,gd_acc_319000,account.data_account_type_current_assets,ODMIKI OD CEN ZALOG SUROVIN IN MATERIALA,0,gd_chart
-320000,gd_acc_320000,account.data_account_type_current_assets,ZALOGE DROBNEGA INVENTARJA IN EMBALAŽE V SKLADIŠČU,0,gd_chart
-321000,gd_acc_321000,account.data_account_type_current_assets,"ZALOGE DROBNEGA INVENTARJA IN EMBALAŽE, DANE V UPORABO",0,gd_chart
-329000,gd_acc_329000,account.data_account_type_current_assets,ODMIKI OD CEN DROBNEGA INVENTARJA IN EMBALAŽE,0,gd_chart
-400000,gd_acc_400000,account.data_account_type_expenses,STROŠKI MATERIALA,0,gd_chart
-401000,gd_acc_401000,account.data_account_type_expenses,STROŠKI POMOŽNEGA MATERIALA,0,gd_chart
-402000,gd_acc_402000,account.data_account_type_expenses,STROŠKI ENERGIJE,0,gd_chart
-403000,gd_acc_403000,account.data_account_type_expenses,STROŠKI NADOMESTNIH DELOV ZA OSNOVNA SREDSTVA IN MATERIALA ZA VZDRŽEVANJE OSNOVNIH SREDSTEV,0,gd_chart
-404000,gd_acc_404000,account.data_account_type_expenses,ODPIS DROBNEGA INVENTARJA IN EMBALAŽE,0,gd_chart
-405000,gd_acc_405000,account.data_account_type_expenses,USKLADITEV STROŠKOV MATERIALA IN DROBNEGA INVENTARJA ZARADI UGOTOVLJENIH POPISNIH RAZLIK,0,gd_chart
-406000,gd_acc_406000,account.data_account_type_expenses,STROŠKI PISARNIŠKEGA MATERIALA IN STROKOVNE LITERATURE,0,gd_chart
-407000,gd_acc_407000,account.data_account_type_expenses,DRUGI STROŠKI MATERIALA,0,gd_chart
-410000,gd_acc_410000,account.data_account_type_expenses,STROŠKI STORITEV PRI USTVARJANJU PROIZVODOV IN OPRAVLJANJU STORITEV,0,gd_chart
-411000,gd_acc_411000,account.data_account_type_expenses,STROŠKI TRANSPORTNIH STORITEV,0,gd_chart
-412000,gd_acc_412000,account.data_account_type_expenses,STROŠKI STORITEV V ZVEZI Z VZDRŽEVANJEM,0,gd_chart
-413000,gd_acc_413000,account.data_account_type_expenses,NAJEMNINE,0,gd_chart
-414000,gd_acc_414000,account.data_account_type_expenses,POVRAČILA STROŠKOV ZAPOSLENCEM V ZVEZI Z DELOM,0,gd_chart
-415000,gd_acc_415000,account.data_account_type_expenses,"STROŠKI PLAČILNEGA PROMETA, STROŠKI BANČNIH STORITEV, STROŠKI POSLOV IN ZAVAROVALNE PREMIJE",0,gd_chart
-416000,gd_acc_416000,account.data_account_type_expenses,STROŠKI INTELEKTUALNIH IN OSEBNIH STORITEV,0,gd_chart
-417000,gd_acc_417000,account.data_account_type_expenses,"STROŠKI SEJMOV, REKLAME IN REPREZENTANCE",0,gd_chart
-418000,gd_acc_418000,account.data_account_type_expenses,"STROŠKI STORITEV FIZIČNIH OSEB, KI NE OPRAVLJAJO DEJAVNOSTI, SKUPAJ Z DAJATVAMI, KI BREMENIJO PODJETJE (STROŠKI PO POGODBAH O DELU, AVTORSKIH POGODBAH, SEJNINE ZAPOSLENCEM IN DRUGIM OSEBAM …)",0,gd_chart
-419000,gd_acc_419000,account.data_account_type_expenses,STROŠKI DRUGIH STORITEV,0,gd_chart
-430000,gd_acc_430000,account.data_account_type_depreciation,AMORTIZACIJA NEOPREDMETENIH SREDSTEV,0,gd_chart
-431000,gd_acc_431000,account.data_account_type_depreciation,AMORTIZACIJA ZGRADB,0,gd_chart
-432000,gd_acc_432000,account.data_account_type_depreciation,AMORTIZACIJA OPREME IN NADOMESTNIH DELOV,0,gd_chart
-433000,gd_acc_433000,account.data_account_type_depreciation,AMORTIZACIJA DROBNEGA INVENTARJA,0,gd_chart
-434000,gd_acc_434000,account.data_account_type_depreciation,AMORTIZACIJA DRUGIH OPREDMETENIH OSNOVNIH SREDSTEV,0,gd_chart
-435000,gd_acc_435000,account.data_account_type_depreciation,AMORTIZACIJA NALOŽBENIH NEPREMIČNIN,0,gd_chart
-440000,gd_acc_440000,account.data_account_type_expenses,REZERVACIJE ZA STROŠKE REORGANIZACIJE PODJETJA,0,gd_chart
-441000,gd_acc_441000,account.data_account_type_expenses,REZERVACIJE ZA DANA JAMSTVA,0,gd_chart
-442000,gd_acc_442000,account.data_account_type_expenses,REZERVACIJE ZA KOČLJIVE POGODBE,0,gd_chart
-443000,gd_acc_443000,account.data_account_type_expenses,"REZERVACIJE ZA POKOJNINE, JUBILEJNE NAGRADE IN ODPRAVNINE OB UPOKOJITVI",0,gd_chart
-449000,gd_acc_449000,account.data_account_type_expenses,REZERVACIJE ZA POKRIVANJE DRUGIH OBVEZNOSTI IZ PRETEKLEGA POSLOVANJA,0,gd_chart
-450000,gd_acc_450000,account.data_account_type_expenses,STROŠKI OBRESTI,0,gd_chart
-470000,gd_acc_470000,account.data_account_type_expenses,PLAČE ZAPOSLENCEV,0,gd_chart
-471000,gd_acc_471000,account.data_account_type_expenses,NADOMESTILA PLAČ ZAPOSLENCEV,0,gd_chart
-472000,gd_acc_472000,account.data_account_type_expenses,STROŠKI DODATNEGA POKOJNINSKEGA ZAVAROVANJA ZAPOSLENCEV,0,gd_chart
-473000,gd_acc_473000,account.data_account_type_expenses,"REGRES ZA LETNI DOPUST, BONITETE, POVRAČILA (ZA PREVOZ NA DELO IN Z NJEGA, ZA PREHRANO, ZA LOČENO ŽIVLJENJE) IN DRUGI PREJEMKI ZAPOSLENCEV",0,gd_chart
-474000,gd_acc_474000,account.data_account_type_expenses,"DELODAJALČEVI PRISPEVKI OD PLAČ, NADOMESTIL PLAČ, BONITET, POVRAČIL IN DRUGIH PREJEMKOV ZAPOSLENCEV",0,gd_chart
-475000,gd_acc_475000,account.data_account_type_expenses,"DRUGE DELODAJALČEVE DAJATVE OD PLAČ, NADOMESTIL PLAČ, BONITET, POVRAČIL IN DRUGIH PREJEMKOV ZAPOSLENCEV",0,gd_chart
-476000,gd_acc_476000,account.data_account_type_expenses,"NAGRADE VAJENCEM SKUPAJ Z DAJATVAMI, KI BREMENIJO PODJETJE",0,gd_chart
-480000,gd_acc_480000,account.data_account_type_expenses,"DAJATVE, KI NISO ODVISNE OD STROŠKOV DELA ALI DRUGIH VRST STROŠKOV",0,gd_chart
-481000,gd_acc_481000,account.data_account_type_expenses,IZDATKI ZA VARSTVO OKOLJA,0,gd_chart
-482000,gd_acc_482000,account.data_account_type_expenses,NAGRADE DIJAKOM IN ŠTUDENTOM NA DELOVNI PRAKSI SKUPAJ Z DAJATVAMI,0,gd_chart
-483000,gd_acc_483000,account.data_account_type_expenses,ŠTIPENDIJE DIJAKOM IN ŠTUDENTOM,0,gd_chart
+110000,gd_acc_110000,account.data_account_type_liquidity,"Denarna sredstva na računih, razen deviznih",0,gd_chart
+110900,gd_acc_110900,account.data_account_type_liquidity,Prehodni konto za nerazporejena plačila,0,gd_chart
+110910,gd_acc_110910,account.data_account_type_liquidity,Dogovorne kompenzacije - prehodni konto,0,gd_chart
+110910,gd_acc_110910,account.data_account_type_liquidity,Dogovorne kompenzacije - obvezni pobot,0,gd_chart
+111000,gd_acc_111000,account.data_account_type_liquidity,"Kratkoročni depoziti oziroma depoziti na odpoklic, razen deviznih",0,gd_chart
+112000,gd_acc_112000,account.data_account_type_liquidity,Devizna sredstva na računih,0,gd_chart
+112900,gd_acc_112900,account.data_account_type_liquidity,Devizna sredstva na računih – prehodni konto,0,gd_chart
+113000,gd_acc_113000,account.data_account_type_liquidity,Kratkoročni devizni depoziti oziroma devizni depoziti na odpoklic,0,gd_chart
+114000,gd_acc_114000,account.data_account_type_liquidity,Denarna sredstva na posebnih računih oziroma za posebne namene,0,gd_chart
+120000,gd_acc_120000,account.data_account_type_receivable,Kratkoročne terjatve do kupcev v državi,1,gd_chart
+121000,gd_acc_121000,account.data_account_type_receivable,Kratkoročne terjatve do kupcev v tujini,1,gd_chart
+122000,gd_acc_122000,account.data_account_type_current_assets,"Kratkoročni blagovni krediti, dani kupcem v državi",0,gd_chart
+123000,gd_acc_123000,account.data_account_type_current_assets,"Kratkoročni blagovni krediti, dani kupcem v tujini",0,gd_chart
+124000,gd_acc_124000,account.data_account_type_current_assets,"Kratkoročni potrošniški krediti, dani kupcem v državi",0,gd_chart
+125000,gd_acc_125000,account.data_account_type_current_assets,Kratkoročne terjatve do članov,0,gd_chart
+126000,gd_acc_126000,account.data_account_type_current_assets,Kratkoročne terjatve za nezaračunano blago in storitve,0,gd_chart
+129000,gd_acc_129000,account.data_account_type_current_assets,Oslabitev vrednosti kratkoročnih terjatev do kupcev,0,gd_chart
+130000,gd_acc_130000,account.data_account_type_prepayments,"Kratkoročni predujmi, dani za opredmetena osnovna sredstva",0,gd_chart
+131000,gd_acc_131000,account.data_account_type_prepayments,"Kratkoročni predujmi, dani za neopredmetena sredstva",0,gd_chart
+132000,gd_acc_132000,account.data_account_type_prepayments,"Kratkoročni predujmi, dani za zaloge materiala in blaga ter še ne opravljene storitve",0,gd_chart
+133000,gd_acc_133000,account.data_account_type_prepayments,Drugi dani kratkoročni predujmi in preplačila,1,gd_chart
+134000,gd_acc_134000,account.data_account_type_prepayments,Dane kratkoročne varščine,0,gd_chart
+139000,gd_acc_139000,account.data_account_type_prepayments,Oslabitev vrednosti danih kratkoročnih predujmov in varščin,0,gd_chart
+140000,gd_acc_140000,account.data_account_type_current_assets,Kratkoročne terjatve do izvoznikov,0,gd_chart
+141000,gd_acc_141000,account.data_account_type_current_assets,Kratkoročne terjatve iz uvoza za tuj račun,0,gd_chart
+142000,gd_acc_142000,account.data_account_type_current_assets,Kratkoročne terjatve iz komisijske in konsignacijske prodaje,0,gd_chart
+145000,gd_acc_145000,account.data_account_type_current_assets,Druge kratkoročne terjatve iz poslovanja za tuj račun,0,gd_chart
+149000,gd_acc_149000,account.data_account_type_current_assets,Oslabitev vrednosti kratkoročnih terjatev iz poslovanja za tuj račun,0,gd_chart
+150000,gd_acc_150000,account.data_account_type_current_assets,Kratkoročne terjatve za obresti,0,gd_chart
+151000,gd_acc_151000,account.data_account_type_current_assets,Kratkoročne terjatve za dividende,0,gd_chart
+152000,gd_acc_152000,account.data_account_type_current_assets,Kratkoročne terjatve za druge deleže v dobičku,0,gd_chart
+155000,gd_acc_155000,account.data_account_type_current_assets,"Druge kratkoročne terjatve, povezane s finančnimi prihodki",0,gd_chart
+159000,gd_acc_159000,account.data_account_type_current_assets,"Oslabitev vrednosti kratkoročnih terjatev, povezanih s finančnimi prihodki",0,gd_chart
+160000,gd_acc_160000,account.data_account_type_current_assets,Kratkoročne terjatve za odbitni DDV (vstopni DDV),0,gd_chart
+160100,gd_acc_160100,account.data_account_type_current_assets,Kratkoročne terjatve za odbitni DDV 22 %,0,gd_chart
+160200,gd_acc_160200,account.data_account_type_current_assets,Kratkoročne terjatve za odbitni DDV 9.5 %,0,gd_chart
+160300,gd_acc_160300,account.data_account_type_current_assets,Kratkoročne terj. Pavšalno nadomestilo,0,gd_chart
+160400,gd_acc_160400,account.data_account_type_current_assets,Kratkoročne terjatve za odbitni DDV v predplačilih 22%,0,gd_chart
+160500,gd_acc_160500,account.data_account_type_current_assets,Kratkoročne terjatve za odbitni DDV v predplačilih 9.5 %,0,gd_chart
+160600,gd_acc_160600,account.data_account_type_current_assets,Kratkoročne terjatve za odbitni DDV - uvoz 22 %,0,gd_chart
+160700,gd_acc_160700,account.data_account_type_current_assets,"Kratkoročne terjatve za odbitni DDV - uvoz 9,5 %",0,gd_chart
+160800,gd_acc_160800,account.data_account_type_current_assets,Terjatev za vračilo med odbitnim in obračunanim DDV,0,gd_chart
+161000,gd_acc_161000,account.data_account_type_current_assets,"Kratkoročne terjatve za davek od dohodkov pravnih oseb, vključno z davkom, plačanim v tujini",0,gd_chart
+161600,gd_acc_161600,account.data_account_type_current_assets,Kratkoročne terjatve za bruto refundirane plače,0,gd_chart
+162000,gd_acc_162000,account.data_account_type_current_assets,"Kratkoročne terjatve zd dohodnino od dohodka iz dejavnosti s.p., vključno z davkom plačanim v tujini",0,gd_chart
+164000,gd_acc_164000,account.data_account_type_current_assets,Druge kratkoročne terjatve do državnih in drugih inštitucij,0,gd_chart
+165000,gd_acc_165000,account.data_account_type_current_assets,Terjatve do zaposlenih iz naslova predujmov za potne stroške,0,gd_chart
+165100,gd_acc_165100,account.data_account_type_current_assets,Terjatve iz naslova plačilnih kartic po dnevnem iztržku,0,gd_chart
+165200,gd_acc_165200,account.data_account_type_current_assets,Terjatve iz naslova vrnjenega blaga dobaviteljem,0,gd_chart
+166000,gd_acc_166000,account.data_account_type_current_assets,"Kratkoročne terjatve za DDV, vrnjen tujcem",0,gd_chart
+167000,gd_acc_167000,account.data_account_type_current_assets,"Kratkoročne terjatve za DDV, plačan v tujini",0,gd_chart
+169000,gd_acc_169000,account.data_account_type_current_assets,Oslabitev vrednosti drugih kratkoročnih terjatev,0,gd_chart
+170000,gd_acc_170000,account.data_account_type_current_assets,"Kratkoročne finančne naložbe v delnice in deleže družb v skupini, razporejene in izmerjene po nabavni vrednosti",0,gd_chart
+171000,gd_acc_171000,account.data_account_type_current_assets,"Kratkoročne finančne naložbe v delnice in deleže družb v skupini, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",0,gd_chart
+172000,gd_acc_172000,account.data_account_type_current_assets,"Kratkoročne finančne naložbe v delnice in deleže družb v skupini, razporejene in izmerjene po pošteni vrednosti prek kapitala",0,gd_chart
+173000,gd_acc_173000,account.data_account_type_current_assets,"Kratkoročne finančne naložbe v delnice in deleže pridruženih družb in skupaj obvladovanih družb, razporejene in izmerjene po nabavni vrednosti",0,gd_chart
+174000,gd_acc_174000,account.data_account_type_current_assets,"Kratkoročne finančne naložbe v delnice in deleže pridruženih družb in skupaj obvladovanih družb, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",0,gd_chart
+175000,gd_acc_175000,account.data_account_type_current_assets,"Kratkoročne finančne naložbe v delnice in deleže pridruženih družb in skupaj obvladovanih družb, razporejene in izmerjene po pošteni vrednosti prek kapitala",0,gd_chart
+176000,gd_acc_176000,account.data_account_type_current_assets,"Druge kratkoročne finančne naložbe, razporejene in izmerjene po nabavni vrednosti",0,gd_chart
+177000,gd_acc_177000,account.data_account_type_current_assets,"Druge kratkoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",0,gd_chart
+178000,gd_acc_178000,account.data_account_type_current_assets,"Druge kratkoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek kapitala",0,gd_chart
+179000,gd_acc_179000,account.data_account_type_current_assets,Oslabitev vrednosti kratkoročnih finančnih naložb,0,gd_chart
+180000,gd_acc_180000,account.data_account_type_current_assets,"Kratkoročna posojila, dana na podlagi posojilnih pogodb družbam v skupini",0,gd_chart
+181000,gd_acc_181000,account.data_account_type_current_assets,"Kratkoročna posojila, dana na podlagi posojilnih pogodb pridruženim družbam in skupaj obvladovanim družbam",0,gd_chart
+182000,gd_acc_182000,account.data_account_type_current_assets,"Kratkoročna posojila, dana drugim",0,gd_chart
+183000,gd_acc_183000,account.data_account_type_current_assets,Kratkoročni depoziti v bankah in drugih finančnih organizacijah,0,gd_chart
+184000,gd_acc_184000,account.data_account_type_current_assets,Kratkoročno dana posojila z odkupom obveznic,0,gd_chart
+185000,gd_acc_185000,account.data_account_type_current_assets,Prejete menice,0,gd_chart
+186000,gd_acc_186000,account.data_account_type_current_assets,Kratkoročno dana posojila z odkupom drugih dolžniških vrednostnih papirjev,0,gd_chart
+187000,gd_acc_187000,account.data_account_type_current_assets,Kratkoročno nevplačani vpoklicani kapital,0,gd_chart
+189000,gd_acc_189000,account.data_account_type_current_assets,Oslabitev vrednosti kratkoročnih posojil,0,gd_chart
+190000,gd_acc_190000,account.data_account_type_current_assets,Kratkoročno odloženi stroški oziroma odhodki,0,gd_chart
+191000,gd_acc_191000,account.data_account_type_current_assets,Kratkoročno nezaračunani prihodki,0,gd_chart
+192000,gd_acc_192000,account.data_account_type_current_assets,Vrednotnice,0,gd_chart
+195000,gd_acc_195000,account.data_account_type_current_assets,DDV od prejetih predujmov,0,gd_chart
+210000,gd_acc_210000,account.data_account_type_current_liabilities,"Obveznosti, vključene v skupine za odtujitev",0,gd_chart
+220000,gd_acc_220000,account.data_account_type_payable,Kratkoročne obveznosti (dolgovi) do dobaviteljev v državi,1,gd_chart
+220900,gd_acc_220900,account.data_account_type_payable,Kratkoročne obveznosti do dobaviteljev v državi-sporno,0,gd_chart
+221000,gd_acc_221000,account.data_account_type_payable,Kratkoročne obveznosti (dolgovi) do dobaviteljev v tujini,1,gd_chart
+222000,gd_acc_222000,account.data_account_type_current_liabilities,"Kratkoročni blagovni krediti, prejeti v državi",0,gd_chart
+223000,gd_acc_223000,account.data_account_type_current_liabilities,"Kratkoročni blagovni krediti, prejeti v tujini",0,gd_chart
+224000,gd_acc_224000,account.data_account_type_current_liabilities,Kratkoročne obveznosti (dolgovi) za nezaračunane blago in storitve,0,gd_chart
+230000,gd_acc_230000,account.data_account_type_current_liabilities,Prejeti kratkoročni predujmi,1,gd_chart
+231000,gd_acc_231000,account.data_account_type_current_liabilities,Prejete kratkoročne varščine,0,gd_chart
+240000,gd_acc_240000,account.data_account_type_current_liabilities,Kratkoročne obveznosti iz izvoza za tuj račun,0,gd_chart
+241000,gd_acc_241000,account.data_account_type_current_liabilities,Kratkoročne obveznosti do uvoznikov,0,gd_chart
+242000,gd_acc_242000,account.data_account_type_current_liabilities,Kratkoročne obveznosti iz komisijske in konsignacijske prodaje,0,gd_chart
+245000,gd_acc_245000,account.data_account_type_current_liabilities,Druge kratkoročne obveznosti iz poslovanja za tuj račun,0,gd_chart
+250000,gd_acc_250000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za vračunane in neobračunane plače,0,gd_chart
+251000,gd_acc_251000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za čiste plače in nadomestila plač,0,gd_chart
+253000,gd_acc_253000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za prispevke iz bruto plač in nadomestil plač,0,gd_chart
+254000,gd_acc_254000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za davke iz bruto plač in nadomestil plač,0,gd_chart
+255000,gd_acc_255000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za druge prejemke iz delovnega razmerja,0,gd_chart
+256000,gd_acc_256000,account.data_account_type_current_liabilities,"Kratkoročne obveznosti za prispevke iz drugih prejemkov iz delovnega razmerja, ki se ne obračunavajo skupaj s plačami",0,gd_chart
+257000,gd_acc_257000,account.data_account_type_current_liabilities,"Kratkoročne obveznosti za davek iz drugih prejemkov iz delovnega razmerja, ki se ne obračunavajo skupaj s plačami",0,gd_chart
+260000,gd_acc_260000,account.data_account_type_current_liabilities,Obveznosti za zaračunani DDV,0,gd_chart
+260100,gd_acc_260100,account.data_account_type_current_liabilities,Obveznost za DDV 22%,0,gd_chart
+260200,gd_acc_260200,account.data_account_type_current_liabilities,"Obveznost za DDV 9,5%",0,gd_chart
+260400,gd_acc_260400,account.data_account_type_current_liabilities,Obveznost za DDV v predplačilih  22%,0,gd_chart
+260500,gd_acc_260500,account.data_account_type_current_liabilities,"Obveznost za DDV v predplačilih  9,5%",0,gd_chart
+260800,gd_acc_260800,account.data_account_type_current_liabilities,Obveznost za obračunani DDV za davčno obdobje,0,gd_chart
+261000,gd_acc_261000,account.data_account_type_current_liabilities,"Obveznosti za DDV, carino in druge dajatve od uvoženega blaga",0,gd_chart
+262000,gd_acc_262000,account.data_account_type_current_liabilities,Obveznosti za prispevke izplačevalca,0,gd_chart
+262200,gd_acc_262200,account.data_account_type_current_liabilities,Obveznosti za prispevke spiz na bruto plače,0,gd_chart
+262300,gd_acc_262300,account.data_account_type_current_liabilities,Obveznosti za prispevke za zdravstveno zavarovanje na bruto plače,0,gd_chart
+262400,gd_acc_262400,account.data_account_type_current_liabilities,Obveznosti za prispevke za zavarovanje nesreč pri delu na bruto plače,0,gd_chart
+263000,gd_acc_263000,account.data_account_type_current_liabilities,Obveznosti za davek od izplačanih plač,0,gd_chart
+264000,gd_acc_264000,account.data_account_type_current_liabilities,Obveznosti za davek od dohodkov pravnih oseb,0,gd_chart
+265000,gd_acc_265000,account.data_account_type_current_liabilities,Obveznosti za davčni odtegljaj,0,gd_chart
+266000,gd_acc_266000,account.data_account_type_current_liabilities,Druge kratkoročne obveznosti do državnih in drugih inštitucij,0,gd_chart
+267000,gd_acc_267000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za prispevke za socialno varnost samostojnih podjetnikov posameznikov,0,gd_chart
+270000,gd_acc_270000,account.data_account_type_current_liabilities,"Kratkoročna posojila, dobljena pri družbah v skupini",0,gd_chart
+271000,gd_acc_271000,account.data_account_type_current_liabilities,"Kratkoročna posojila, dobljena pri pridruženih družbah in skupaj obvladovanih družbah",0,gd_chart
+272000,gd_acc_272000,account.data_account_type_current_liabilities,"Kratkoročna posojila, dobljena pri bankah in družbah v državi",0,gd_chart
+273000,gd_acc_273000,account.data_account_type_current_liabilities,"Kratkoročna posojila, dobljena pri bankah in družbah v tujini",0,gd_chart
+274000,gd_acc_274000,account.data_account_type_current_liabilities,Kratkoročne finančne obveznosti v zvezi z obveznicami,0,gd_chart
+275000,gd_acc_275000,account.data_account_type_current_liabilities,Kratkoročne obveznosti v zvezi z razdelitvijo poslovnega izida,0,gd_chart
+276000,gd_acc_276000,account.data_account_type_current_liabilities,Kratkoročne finančne obveznosti do fizičnih oseb,0,gd_chart
+278000,gd_acc_278000,account.data_account_type_current_liabilities,Obveznosti iz vplačila kapitala do vpisa v sodni register,0,gd_chart
+279000,gd_acc_279000,account.data_account_type_current_liabilities,Druge kratkoročne finančne obveznosti,0,gd_chart
+280000,gd_acc_280000,account.data_account_type_current_liabilities,Kratkoročne obveznosti za obresti,0,gd_chart
+281000,gd_acc_281000,account.data_account_type_current_liabilities,Kratkoročne menične obveznosti,0,gd_chart
+282000,gd_acc_282000,account.data_account_type_current_liabilities,Kratkoročne obveznosti v zvezi z odtegljaji od plač in nadomestil plač zaposlencem,0,gd_chart
+285000,gd_acc_285000,account.data_account_type_current_liabilities,Ostale kratkoročne poslovne obveznosti,0,gd_chart
+285010,gd_acc_285010,account.data_account_type_current_liabilities,Obveznost za izplačilo avtorskih honorarjev,0,gd_chart
+285100,gd_acc_285100,account.data_account_type_current_liabilities,Obveznost za izplačilo najemnine,0,gd_chart
+285200,gd_acc_285200,account.data_account_type_current_liabilities,Obveznost za izplačilo priložnostnih del po pogodbi,0,gd_chart
+285300,gd_acc_285300,account.data_account_type_current_liabilities,Kratkoročne obveznosti za izplačilo podjemnih pogodb,0,gd_chart
+285400,gd_acc_285400,account.data_account_type_current_liabilities,Kratkoročne obveznosti za iplačilo avtorskega honorarja,0,gd_chart
+285500,gd_acc_285500,account.data_account_type_current_liabilities,Obveznost za kratkoročno založena sredstva,0,gd_chart
+290000,gd_acc_290000,account.data_account_type_current_liabilities,Vnaprej vračunani stroški oziroma odhodki,0,gd_chart
+291000,gd_acc_291000,account.data_account_type_current_liabilities,Kratkoročno odloženi prihodki,0,gd_chart
+295000,gd_acc_295000,account.data_account_type_current_liabilities,DDV od danih predujmov,0,gd_chart
+300000,gd_acc_300000,account.data_account_type_current_assets,Vrednost surovin in materiala po obračunih dobaviteljev,0,gd_chart
+301000,gd_acc_301000,account.data_account_type_current_assets,Odvisni stroški nabave surovin in materiala,0,gd_chart
+302000,gd_acc_302000,account.data_account_type_current_assets,Carina in druge uvozne davščine od surovin in materiala,0,gd_chart
+303000,gd_acc_303000,account.data_account_type_current_assets,DDV in druge davščine od surovin in materiala,0,gd_chart
+309000,gd_acc_309000,account.data_account_type_current_assets,Obračun nabave surovin in materiala,0,gd_chart
+310000,gd_acc_310000,account.data_account_type_current_assets,Zaloge surovin in materiala v skladišču,0,gd_chart
+311000,gd_acc_311000,account.data_account_type_current_assets,Zaloge surovin in materiala v tujem skladišču,0,gd_chart
+312000,gd_acc_312000,account.data_account_type_current_assets,Zaloge surovin in materiala na poti,0,gd_chart
+316000,gd_acc_316000,account.data_account_type_current_assets,Zaloge surovin in materiala v dodelavi in predelavi,0,gd_chart
+319000,gd_acc_319000,account.data_account_type_current_assets,Odmiki od cen zalog surovin in materiala,0,gd_chart
+320000,gd_acc_320000,account.data_account_type_current_assets,Zaloge drobnega inventarja in embalaže v skladišču,0,gd_chart
+321000,gd_acc_321000,account.data_account_type_current_assets,"Zaloge drobnega inventarja in embalaže, dane v uporabo",0,gd_chart
+329000,gd_acc_329000,account.data_account_type_current_assets,Odmiki od cen drobnega inventarja in embalaže,0,gd_chart
+400000,gd_acc_400000,account.data_account_type_expenses,Stroški materiala,0,gd_chart
+400100,gd_acc_400100,account.data_account_type_expenses,Stroški materiala - lastna poraba,0,gd_chart
+401000,gd_acc_401000,account.data_account_type_expenses,Stroški pomožnega materiala,0,gd_chart
+402000,gd_acc_402000,account.data_account_type_expenses,Stroški energije,0,gd_chart
+402100,gd_acc_402100,account.data_account_type_expenses,Stroški goriva,0,gd_chart
+402200,gd_acc_402200,account.data_account_type_expenses,Stroški dobave vode,0,gd_chart
+402300,gd_acc_402300,account.data_account_type_expenses,Strošek kurilnega olja,0,gd_chart
+403000,gd_acc_403000,account.data_account_type_expenses,Stroški nadomestnih delov za osnovna sredstva in materiala za vzdrževanje osnovnih sredstev,0,gd_chart
+404000,gd_acc_404000,account.data_account_type_expenses,Odpis drobnega inventarja in embalaže,0,gd_chart
+405000,gd_acc_405000,account.data_account_type_expenses,Uskladitev stroškov materiala in drobnega inventarja zaradi ugotovljenih popisnih razlik,0,gd_chart
+406000,gd_acc_406000,account.data_account_type_expenses,Stroški pisarniškega materiala in strokovne literature,0,gd_chart
+407000,gd_acc_407000,account.data_account_type_expenses,Drugi stroški materiala,0,gd_chart
+410000,gd_acc_410000,account.data_account_type_expenses,Stroški storitev pri ustvarjanju proizvodov in opravljanju storitev,0,gd_chart
+411000,gd_acc_411000,account.data_account_type_expenses,Stroški transportnih storitev,0,gd_chart
+411100,gd_acc_411100,account.data_account_type_expenses,"Stroški cestnin, parkirnin",0,gd_chart
+412000,gd_acc_412000,account.data_account_type_expenses,Stroški storitev v zvezi z vzdrževanjem opredmetenih osnovnih sredstev,0,gd_chart
+413000,gd_acc_413000,account.data_account_type_expenses,Najemnine,0,gd_chart
+414000,gd_acc_414000,account.data_account_type_expenses,Povračila stroškov zaposlencem v zvezi z delom,0,gd_chart
+414010,gd_acc_414010,account.data_account_type_expenses,"Povračila stroškov v zvezi z delom (dnevnice,šolnine)",0,gd_chart
+414100,gd_acc_414100,account.data_account_type_expenses,Strošek kilometrine na službeni poti,0,gd_chart
+414200,gd_acc_414200,account.data_account_type_expenses,Strošek drugi povezan s službeno potjo,0,gd_chart
+414300,gd_acc_414300,account.data_account_type_expenses,Strošek prenočevanja na službeni poti,0,gd_chart
+414400,gd_acc_414400,account.data_account_type_expenses,Strošek dnevnic za zaposlence napotene na delo,0,gd_chart
+414500,gd_acc_414500,account.data_account_type_expenses,Strošek kilometrine za zaposlence napotene na delo,0,gd_chart
+414600,gd_acc_414600,account.data_account_type_expenses,Strošek drugi povezan z napotitvijo na delo,0,gd_chart
+414700,gd_acc_414700,account.data_account_type_expenses,Strošek prenočevanja za zaposlence napotene na delo,0,gd_chart
+414800,gd_acc_414800,account.data_account_type_expenses,Strošek drugih potnih stroškov,0,gd_chart
+415000,gd_acc_415000,account.data_account_type_expenses,"Stroški plačilnega prometa, stroški bančnih storitev, stroški poslov in zavarovalne premije",0,gd_chart
+416000,gd_acc_416000,account.data_account_type_expenses,Stroški intelektualnih in osebnih storitev,0,gd_chart
+416100,gd_acc_416100,account.data_account_type_expenses,Strošek pravnih in notarskih storitev,0,gd_chart
+416200,gd_acc_416200,account.data_account_type_expenses,Strošek izobraževanja,0,gd_chart
+416300,gd_acc_416300,account.data_account_type_expenses,Strošek komercialnih storitev,0,gd_chart
+416400,gd_acc_416400,account.data_account_type_expenses,Strošek drugih intelektualnih storitev,0,gd_chart
+416500,gd_acc_416500,account.data_account_type_expenses,Svetovalne storitve,0,gd_chart
+416600,gd_acc_416600,account.data_account_type_expenses,Strošek zdravstvenih storitev,0,gd_chart
+417000,gd_acc_417000,account.data_account_type_expenses,"Stroški sejmov, reklame in reprezentance",0,gd_chart
+417200,gd_acc_417200,account.data_account_type_expenses,Stroški donacij in sponzorstva,0,gd_chart
+418000,gd_acc_418000,account.data_account_type_expenses,"Stroški storitev fizičnih oseb, ki ne opravljajo dejavnosti, skupaj z dajatvami, ki bremenijo podjetje (stroški po pogodbah o delu, avtorskih pogodbah, sejnine zaposlencem in drugim osebam …)",0,gd_chart
+418200,gd_acc_418200,account.data_account_type_expenses,Strošek podjemne pogodbe,0,gd_chart
+418300,gd_acc_418300,account.data_account_type_expenses,Strošek avtorskega honorarja,0,gd_chart
+419000,gd_acc_419000,account.data_account_type_expenses,Stroški drugih storitev,0,gd_chart
+419100,gd_acc_419100,account.data_account_type_expenses,Stroški komunalnih stortev,0,gd_chart
+419200,gd_acc_419200,account.data_account_type_expenses,Stroški taks in članarin,0,gd_chart
+419300,gd_acc_419300,account.data_account_type_expenses,Stroški študentskih storitev,0,gd_chart
+419400,gd_acc_419400,account.data_account_type_expenses,Stroški poštnih storitev,0,gd_chart
+419500,gd_acc_419500,account.data_account_type_expenses,"Stroški telefonskih storitev (gsm, telekom, siol)",0,gd_chart
+419600,gd_acc_419600,account.data_account_type_expenses,Strošek vzrževanja in posodobiteve računalniških programov,0,gd_chart
+419700,gd_acc_419700,account.data_account_type_expenses,Strošek iz naslova lastnega voznega parka,0,gd_chart
+419800,gd_acc_419800,account.data_account_type_expenses,"Strošek komunale, ogrevanja, vode...",0,gd_chart
+430000,gd_acc_430000,account.data_account_type_depreciation,Amortizacija neopredmetenih sredstev,0,gd_chart
+431000,gd_acc_431000,account.data_account_type_depreciation,Amortizacija zgradb,0,gd_chart
+432000,gd_acc_432000,account.data_account_type_depreciation,Amortizacija opreme in nadomestnih delov,0,gd_chart
+433000,gd_acc_433000,account.data_account_type_depreciation,Amortizacija drobnega inventarja,0,gd_chart
+434000,gd_acc_434000,account.data_account_type_depreciation,Amortizacija drugih opredmetenih osnovnih sredstev,0,gd_chart
+435000,gd_acc_435000,account.data_account_type_depreciation,Amortizacija naložbenih nepremičnin,0,gd_chart
+440000,gd_acc_440000,account.data_account_type_expenses,Rezervacije za stroške reorganizacije podjetja,0,gd_chart
+441000,gd_acc_441000,account.data_account_type_expenses,Rezervacije za dana jamstva,0,gd_chart
+442000,gd_acc_442000,account.data_account_type_expenses,Rezervacije za kočljive pogodbe,0,gd_chart
+443000,gd_acc_443000,account.data_account_type_expenses,"Rezervacije za pokojnine, jubilejne nagrade in odpravnine ob upokojitvi",0,gd_chart
+449000,gd_acc_449000,account.data_account_type_expenses,Rezervacije za pokrivanje drugih obveznosti iz preteklega poslovanja,0,gd_chart
+450000,gd_acc_450000,account.data_account_type_expenses,Stroški obresti,0,gd_chart
+470000,gd_acc_470000,account.data_account_type_expenses,Plače zaposlencev,0,gd_chart
+471000,gd_acc_471000,account.data_account_type_expenses,Nadomestila plač zaposlencev,0,gd_chart
+472000,gd_acc_472000,account.data_account_type_expenses,Stroški dodatnega pokojninskega zavarovanja zaposlencev,0,gd_chart
+473000,gd_acc_473000,account.data_account_type_expenses,"Regres za letni dopust, bonitete, povračila (za prevoz na delo in z njega, za prehrano, za ločeno življenje) in drugi prejemki zaposlencev",0,gd_chart
+473100,gd_acc_473100,account.data_account_type_expenses,Strošek prevoza na delo,0,gd_chart
+473200,gd_acc_473200,account.data_account_type_expenses,Prehrana - zavarovalna podlaga 040,0,gd_chart
+473300,gd_acc_473300,account.data_account_type_expenses,Prevoz - zavarovalna podlaga 040,0,gd_chart
+473400,gd_acc_473400,account.data_account_type_expenses,Strošek odpravnine,0,gd_chart
+473500,gd_acc_473500,account.data_account_type_expenses,Plača - zavarovalna podlaga 040,0,gd_chart
+474000,gd_acc_474000,account.data_account_type_expenses,"Delodajalčevi prispevki od plač, nadomestil plač, bonitet, povračil in drugih prejemkov zaposlencev",0,gd_chart
+474100,gd_acc_474100,account.data_account_type_expenses,Strošek delodajalčevih  prispevkov od plač  spiz,0,gd_chart
+474200,gd_acc_474200,account.data_account_type_expenses,Strošek prispevkov na plače od  bonitet brez prispevka za zpiz,0,gd_chart
+474300,gd_acc_474300,account.data_account_type_expenses,Strošek prispevkov na plače od   bonitet za zpiz,0,gd_chart
+475000,gd_acc_475000,account.data_account_type_expenses,"Druge delodajalčeve dajatve od plač, nadomestil plač, bonitet, povračil in drugih prejemkov zaposlencev",0,gd_chart
+476000,gd_acc_476000,account.data_account_type_expenses,"Nagrade vajencem skupaj z dajatvami, ki bremenijo podjetje",0,gd_chart
+477000,gd_acc_477000,account.data_account_type_expenses,"Stroški poslovodstva, obračunani na podlagi kot je delovno razmerje",0,gd_chart
+478000,gd_acc_478000,account.data_account_type_expenses,Drugi stroški dela,0,gd_chart
+479000,gd_acc_479000,account.data_account_type_expenses,"Rezervacije za pokojnine, jubilejne nagrade in odpravnine ob upokojitvi",0,gd_chart
+480000,gd_acc_480000,account.data_account_type_expenses,"Dajatve, ki niso odvisne od stroškov dela ali drugih vrst stroškov",0,gd_chart
+480100,gd_acc_480100,account.data_account_type_expenses,Strošek upravnih in sodnih taks,0,gd_chart
+480200,gd_acc_480200,account.data_account_type_expenses,Strošek raznih avtorskih pravic,0,gd_chart
+480300,gd_acc_480300,account.data_account_type_expenses,Strošek davka na nepremičnine,0,gd_chart
+481000,gd_acc_481000,account.data_account_type_expenses,Izdatki za varstvo okolja,0,gd_chart
+482000,gd_acc_482000,account.data_account_type_expenses,Nagrade dijakom in študentom na delovni praksi skupaj z dajatvami,0,gd_chart
+483000,gd_acc_483000,account.data_account_type_expenses,Štipendije dijakom in študentom,0,gd_chart
 484000,gd_acc_484000,account.data_account_type_expenses,Prispevki za socialno varnost samostojnih podjetnikov posameznikov,0,gd_chart
 486000,gd_acc_486000,account.data_account_type_expenses,Povračila stroškov samostojnim podjetnikom posameznikom,0,gd_chart
 488000,gd_acc_488000,account.data_account_type_expenses,Dotacije drugim društvom in pravnim osebam,0,gd_chart
-489000,gd_acc_489000,account.data_account_type_expenses,OSTALI STROŠKI,0,gd_chart
-490000,gd_acc_490000,account.data_account_type_expenses,PRENOS STROŠKOV V ZALOGE,0,gd_chart
-491000,gd_acc_491000,account.data_account_type_expenses,PRENOS STROŠKOV NEPOSREDNO V ODHODKE,0,gd_chart
-600000,gd_acc_600000,account.data_account_type_current_assets,NEDOKONČANA PROIZVODNJA,0,gd_chart
-601000,gd_acc_601000,account.data_account_type_current_assets,NEDOKONČANE STORITVE,0,gd_chart
-602000,gd_acc_602000,account.data_account_type_current_assets,POLIZDELKI,0,gd_chart
-604000,gd_acc_604000,account.data_account_type_current_assets,PROIZVODNJA V DODELAVI IN PREDELAVI,0,gd_chart
-609000,gd_acc_609000,account.data_account_type_current_assets,ODMIKI OD CEN NEDOKONČANIH PROIZVODNJE IN STORITEV,0,gd_chart
-630000,gd_acc_630000,account.data_account_type_current_assets,PROIZVODI V LASTNEM SKLADIŠČU,0,gd_chart
-631000,gd_acc_631000,account.data_account_type_current_assets,PROIZVODI V TUJEM SKLADIŠČU,0,gd_chart
-632000,gd_acc_632000,account.data_account_type_current_assets,PROIZVODI NA POTI,0,gd_chart
-633000,gd_acc_633000,account.data_account_type_current_assets,PROIZVODI V LASTNI PRODAJALNI,0,gd_chart
-634000,gd_acc_634000,account.data_account_type_current_assets,VRAČUNANI DDV OD PROIZVODOV V PRODAJALNI,0,gd_chart
-635000,gd_acc_635000,account.data_account_type_current_assets,PROIZVODI V DODELAVI IN PREDELAVI,0,gd_chart
-639000,gd_acc_639000,account.data_account_type_current_assets,ODMIKI OD CEN PROIZVODOV,0,gd_chart
-650000,gd_acc_650000,account.data_account_type_current_assets,VREDNOST BLAGA PO OBRAČUNIH DOBAVITELJEV,0,gd_chart
-651000,gd_acc_651000,account.data_account_type_current_assets,ODVISNI STROŠKI NABAVE BLAGA,0,gd_chart
-659000,gd_acc_659000,account.data_account_type_current_assets,OBRAČUN NABAVE BLAGA,0,gd_chart
-660000,gd_acc_660000,account.data_account_type_current_assets,BLAGO V LASTNEM SKLADIŠČU,0,gd_chart
-661000,gd_acc_661000,account.data_account_type_current_assets,BLAGO V TUJEM SKLADIŠČU,0,gd_chart
-662000,gd_acc_662000,account.data_account_type_current_assets,BLAGO NA POTI,0,gd_chart
-663000,gd_acc_663000,account.data_account_type_current_assets,BLAGO V LASTNI PRODAJALNI,0,gd_chart
-664000,gd_acc_664000,account.data_account_type_current_assets,"DDV, VRAČUNAN V ZALOGAH BLAGA",0,gd_chart
-669000,gd_acc_669000,account.data_account_type_current_assets,VRAČUNANA RAZLIKA V CENAH ZALOG BLAGA,0,gd_chart
-670000,gd_acc_670000,account.data_account_type_current_assets,"OPREDMETENA OSNOVNA SREDSTVA, NAMENJENA PRODAJI",0,gd_chart
-671000,gd_acc_671000,account.data_account_type_current_assets,"NALOŽBENE NEPREMIČNINE, VREDNOTENE PO MODELU NABAVNE VREDNOSTI, NAMENJENE PRODAJI",0,gd_chart
-672000,gd_acc_672000,account.data_account_type_current_assets,"DRUGA NEKRATKOROČNA SREDSTVA, NAMENJENA PRODAJI",0,gd_chart
-673000,gd_acc_673000,account.data_account_type_current_assets,"SREDSTVA DELA DENAR USTVARJAJOČE ENOTE, NAMENJENA PRODAJI",0,gd_chart
-674000,gd_acc_674000,account.data_account_type_current_assets,"SREDSTVA DENAR USTVARJAJOČE ENOTE, NAMENJENA PRODAJI",0,gd_chart
-700000,gd_acc_700000,account.data_account_type_direct_costs,VREDNOST PRODANIH POSLOVNIH UČINKOV,0,gd_chart
-701000,gd_acc_701000,account.data_account_type_direct_costs,VREDNOST USREDSTVENIH LASTNIH PROIZVODOV IN STORITEV,0,gd_chart
-702000,gd_acc_702000,account.data_account_type_direct_costs,NABAVNA VREDNOST PRODANIH MATERIALA IN BLAGA,0,gd_chart
-703000,gd_acc_703000,account.data_account_type_direct_costs,DRUGI POSLOVNI ODHODKI,0,gd_chart
-710000,gd_acc_710000,account.data_account_type_direct_costs,VREDNOST PRODANIH POSLOVNIH UČINKOV,0,gd_chart
-711000,gd_acc_711000,account.data_account_type_direct_costs,NABAVNA VREDNOST PRODANIH MATERIALA IN BLAGA,0,gd_chart
-712000,gd_acc_712000,account.data_account_type_direct_costs,STROŠKI PRODAJANJA,0,gd_chart
-713000,gd_acc_713000,account.data_account_type_direct_costs,STROŠKI SPLOŠNIH DEJAVNOSTI (NABAVE IN UPRAVE),0,gd_chart
-714000,gd_acc_714000,account.data_account_type_direct_costs,"DRUGI STROŠKI, KI SE NE ZADRŽUJEJO V ZALOGAH",0,gd_chart
-720000,gd_acc_720000,account.data_account_type_direct_costs,"PREVREDNOTOVALNI POSLOVNI ODHODKI V ZVEZI Z NEOPREDMETENIMI SREDSTVI, OPREDMETENIMI OSNOVNIMI SREDSTVI IN NALOŽBENIMI NEPREMIČNINAMI RAZPOREJENIMI IN IZMERJENIMI PO MODELU NABAVNE VREDNOSTI",0,gd_chart
-721000,gd_acc_721000,account.data_account_type_direct_costs,"PREVREDNOTOVALNI POSLOVNI ODHODKI V ZVEZI S KRATKOROČNIMI SREDSTVI, RAZEN S FINANČNIMI NALOŽBAMI",0,gd_chart
-722000,gd_acc_722000,account.data_account_type_direct_costs,PREVREDNOTOVALNI POSLOVNI ODHODKI V ZVEZI S STROŠKI DELA,0,gd_chart
-740000,gd_acc_740000,account.data_account_type_direct_costs,"ODHODKI IZ POSOJIL, PREJETIH OD DRUŽB V SKUPINI",0,gd_chart
-741000,gd_acc_741000,account.data_account_type_direct_costs,"ODHODKI IZ POSOJIL, PREJETIH OD BANK",0,gd_chart
-742000,gd_acc_742000,account.data_account_type_direct_costs,ODHODKI IZ IZDANIH OBVEZNIC,0,gd_chart
-743000,gd_acc_743000,account.data_account_type_direct_costs,ODHODKI IZ DRUGIH FINANČNIH OBVEZNOSTI,0,gd_chart
-744000,gd_acc_744000,account.data_account_type_direct_costs,ODHODKI IZ POSLOVNIH OBVEZNOSTI DO DRUŽB V SKUPINI,0,gd_chart
-745000,gd_acc_745000,account.data_account_type_direct_costs,ODHODKI IZ OBVEZNOSTI DO DOBAVITELJEV IN MENIČNIH OBVEZNOSTI,0,gd_chart
-746000,gd_acc_746000,account.data_account_type_direct_costs,ODHODKI IZ DRUGIH POSLOVNIH OBVEZNOSTI,0,gd_chart
-747000,gd_acc_747000,account.data_account_type_direct_costs,"ODHODKI IZ SREDSTEV, RAZPOREJENIH PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-748000,gd_acc_748000,account.data_account_type_direct_costs,ODHODKI IZ OSLABITVE FINANČNIH NALOŽB,0,gd_chart
-749000,gd_acc_749000,account.data_account_type_direct_costs,ODHODKI IZ ODPRAVE PRIPOZNANJA FINANČNIH NALOŽB,0,gd_chart
-750000,gd_acc_750000,account.data_account_type_direct_costs,ODHODKI IZ VREDNOTENJA NALOŽBENIH NEPREMIČNIN PO MODELU POŠTENE VREDNOSTI,0,gd_chart
-751000,gd_acc_751000,account.data_account_type_direct_costs,"ODHODKI IZ ODTUJITVE NALOŽBENIH NEPREMIČNIN, IZMERJENIH PO POŠTENI VREDNOSTI",0,gd_chart
-752000,gd_acc_752000,account.data_account_type_direct_costs,DENARNE KAZNI,0,gd_chart
-753000,gd_acc_753000,account.data_account_type_direct_costs,ODŠKODNINE,0,gd_chart
-759000,gd_acc_759000,account.data_account_type_direct_costs,OSTALI ODHODKI,0,gd_chart
-760000,gd_acc_760000,account.data_account_type_revenue,PRIHODKI OD PRODAJE PROIZVODOV IN STORITEV NA DOMAČEM TRGU,0,gd_chart
-761000,gd_acc_761000,account.data_account_type_revenue,PRIHODKI OD PRODAJE PROIZVODOV IN STORITEV NA TUJEM TRGU,0,gd_chart
-762000,gd_acc_762000,account.data_account_type_revenue,PRIHODKI OD PRODAJE TRGOVSKEGA BLAGA IN MATERIALA NA DOMAČEM TRGU,0,gd_chart
-763000,gd_acc_763000,account.data_account_type_revenue,PRIHODKI OD PRODAJE TRGOVSKEGA BLAGA IN MATERIALA NA TUJEM TRGU,0,gd_chart
-765000,gd_acc_765000,account.data_account_type_revenue,PRIHODKI OD NAJEMNIN,0,gd_chart
-766000,gd_acc_766000,account.data_account_type_revenue,PRIHODKI OD ODPRAVE REZERVACIJ,0,gd_chart
-767000,gd_acc_767000,account.data_account_type_revenue,PRIHODKI OD POSLOVNIH ZDRUŽITEV (PRESEŽEK IZ PREVREDNOTENJA - SLABO IME),0,gd_chart
-768000,gd_acc_768000,account.data_account_type_revenue,"DRUGI PRIHODKI, POVEZANI S POSLOVNIMI UČINKI (SUBVENCIJE, DOTACIJE, REGRESI, KOMPENZACIJE, PREMIJE ...)",0,gd_chart
-769000,gd_acc_769000,account.data_account_type_revenue,PREVREDNOTOVALNI POSLOVNI PRIHODKI,0,gd_chart
-770000,gd_acc_770000,account.data_account_type_revenue,FINANČNI PRIHODKI IZ DELEŽEV V DRUŽBAH V SKUPINI,0,gd_chart
-771000,gd_acc_771000,account.data_account_type_revenue,FINANČNI PRIHODKI IZ DELEŽEV V PRIDRUŽENIH DRUŽBAH IN SKUPAJ OBVLADOVANIH DRUŽBAH,0,gd_chart
-772000,gd_acc_772000,account.data_account_type_revenue,FINANČNI PRIHODKI IZ DELEŽEV V DRUGIH DRUŽBAH,0,gd_chart
-773000,gd_acc_773000,account.data_account_type_revenue,FINANČNI PRIHODKI IZ DRUGIH NALOŽB,0,gd_chart
-774000,gd_acc_774000,account.data_account_type_revenue,"FINANČNI PRIHODKI IZ POSOJIL, DANIH DRUŽBAM V SKUPINI",0,gd_chart
-775000,gd_acc_775000,account.data_account_type_revenue,"FINANČNI PRIHODKI IZ POSOJIL, DANIH DRUGIM (TUDI OD DEPOZITOV)",0,gd_chart
-776000,gd_acc_776000,account.data_account_type_revenue,FINANČNI PRIHODKI IZ POSLOVNIH TERJATEV DO DRUŽB V SKUPINI,0,gd_chart
-777000,gd_acc_777000,account.data_account_type_revenue,FINANČNI PRIHODKI IZ POSLOVNIH TERJATEV DO DRUGIH,0,gd_chart
-778000,gd_acc_778000,account.data_account_type_revenue,"FINANČNI PRIHODKI IZ FINANČNIH SREDSTEV, RAZPOREJENIH PO POŠTENI VREDNOSTI PREK POSLOVNEGA IZIDA",0,gd_chart
-780000,gd_acc_780000,account.data_account_type_other_income,PRIHODKI IZ VREDNOTENJA NALOŽBENIH NEPREMIČNIN PO POŠTENI VREDNOSTI,0,gd_chart
-781000,gd_acc_781000,account.data_account_type_other_income,"PRIHODKI IZ ODTUJITVE NALOŽBENIH NEPREMIČNIN, IZMERJENIH PO POŠTENI VREDNOSTI",0,gd_chart
-785000,gd_acc_785000,account.data_account_type_other_income,"SUBVENCIJE, DOTACIJE IN PODOBNI PRIHODKI, KI NISO POVEZANI S POSLOVNIMI UČINKI",0,gd_chart
-786000,gd_acc_786000,account.data_account_type_other_income,PREJETE ODŠKODNINE,0,gd_chart
-787000,gd_acc_787000,account.data_account_type_other_income,PREJETE KAZNI,0,gd_chart
-789000,gd_acc_789000,account.data_account_type_other_income,OSTALI PRIHODKI,0,gd_chart
-800000,gd_acc_800000,account.data_account_type_current_liabilities,DOBIČEK ALI IZGUBA PRED OBDAVČITVIJO,0,gd_chart
-810000,gd_acc_810000,account.data_account_type_current_liabilities,DAVEK OD DOHODKA,0,gd_chart
-812000,gd_acc_812000,account.data_account_type_current_liabilities,"DRUGI DAVKI, KI NISO IZKAZANI V DRUGIH POSTAVKAH",0,gd_chart
-813000,gd_acc_813000,account.data_account_type_current_liabilities,PRIHODKI (ODHODKI) IZ NASLOVA ODLOŽENEGA DAVKA,0,gd_chart
-815000,gd_acc_815000,account.data_account_type_current_liabilities,ČISTI DOBIČEK POSLOVNEGA LETA,0,gd_chart
-820000,gd_acc_820000,account.data_account_type_current_liabilities,ČISTI DOBIČEK ZA KRITJE PRENESENIH IZGUB,0,gd_chart
-821000,gd_acc_821000,account.data_account_type_current_liabilities,ČISTI DOBIČEK ZA OBLIKOVANJE ZAKONSKIH REZERV,0,gd_chart
-822000,gd_acc_822000,account.data_account_type_current_liabilities,ČISTI DOBIČEK ZA OBLIKOVANJE REZERV ZA LASTNE DELNICE OZIROMA DELEŽE,0,gd_chart
-823000,gd_acc_823000,account.data_account_type_current_liabilities,ČISTI DOBIČEK ZA OBLIKOVANJE STATUTARNIH REZERV,0,gd_chart
-824000,gd_acc_824000,account.data_account_type_current_liabilities,ČISTI DOBIČEK ZA DRUGE REZERVE IZ DOBIČKA,0,gd_chart
-829000,gd_acc_829000,account.data_account_type_current_liabilities,PRENOS NEUPORABLJENEGA DELA ČISTEGA DOBIČKA POSLOVNEGA LETA,0,gd_chart
-890000,gd_acc_890000,account.data_account_type_current_liabilities,IZGUBA TEKOČEGA LETA,0,gd_chart
-899000,gd_acc_899000,account.data_account_type_current_liabilities,PRENOS IZGUBE TEKOČEGA LETA,0,gd_chart
-900000,gd_acc_900000,account.data_account_type_equity,OSNOVNI DELNIŠKI KAPITAL - NAVADNE DELNICE,0,gd_chart
-901000,gd_acc_901000,account.data_account_type_equity,OSNOVNI DELNIŠKI KAPITAL - PREDNOSTNE DELNICE,0,gd_chart
-902000,gd_acc_902000,account.data_account_type_equity,OSNOVNI KAPITAL - KAPITALSKI DELEŽI,0,gd_chart
-903000,gd_acc_903000,account.data_account_type_equity,OSNOVNI KAPITAL - KAPITALSKA VLOGA,0,gd_chart
-909000,gd_acc_909000,account.data_account_type_equity,NEVPOKLICANI KAPITAL (ODBITNA POSTAVKA),0,gd_chart
-910000,gd_acc_910000,account.data_account_type_equity,VPLAČILA NAD NAJMANJŠIMI EMISIJSKIMI ZNESKI DELNIC OZIROMA DELEŽEV (VPLAČANI PRESEŽEK KAPITALA),0,gd_chart
-911000,gd_acc_911000,account.data_account_type_equity,VPLAČILA NAD KNJIGOVODSKO VREDNOSTJO PRI ODTUJITVI ZAČASNO ODKUPLJENIH LASTNIH DELNIC OZIROMA DELEŽEV,0,gd_chart
-912000,gd_acc_912000,account.data_account_type_equity,"VPLAČILA NAD NAJMANJŠIM EMISIJSKIM ZNESKOM KAPITALA, PRIDOBLJENA Z IZDAJO ZAMENLJIVIH OBVEZNIC IN OBVEZNIC Z DELNIŠKO NAKUPNO OPCIJO",0,gd_chart
-913000,gd_acc_913000,account.data_account_type_equity,VPLAČILA ZA PRIDOBITEV DODATNIH PRAVIC IZ DELNIC OZIROMA DELEŽEV,0,gd_chart
-914000,gd_acc_914000,account.data_account_type_equity,DRUGA VPLAČILA KAPITALA NA PODLAGI STATUTA,0,gd_chart
-915000,gd_acc_915000,account.data_account_type_equity,ZNESKI IZ POENOSTAVLJENEGA ZMANJŠANJA OSNOVNEGA KAPITALA IN ZNESKI ZMANJŠANJA OSNOVNEGA KAPITALA Z UMIKOM DELNIC OZIROMA DELEŽEV,0,gd_chart
-916000,gd_acc_916000,account.data_account_type_equity,SPLOŠNI PREVREDNOTOVALNI POPRAVEK KAPITALA,0,gd_chart
-917000,gd_acc_917000,account.data_account_type_equity,ZNESKI IZ UČINKOV POTRJENE PRISILNE PORAVNAVE,0,gd_chart
-920000,gd_acc_920000,account.data_account_type_non_current_liabilities,ZAKONSKE REZERVE,0,gd_chart
-921000,gd_acc_921000,account.data_account_type_non_current_liabilities,REZERVE ZA LASTNE DELNICE OZIROMA LASTNE POSLOVNE DELEŽE,0,gd_chart
-922000,gd_acc_922000,account.data_account_type_non_current_liabilities,STATUTARNE REZERVE,0,gd_chart
-923000,gd_acc_923000,account.data_account_type_non_current_liabilities,DRUGE REZERVE IZ DOBIČKA,0,gd_chart
-929000,gd_acc_929000,account.data_account_type_non_current_liabilities,PRIDOBLJENE LASTNE DELNICE OZIROMA LASTNI POSLOVNI DELEŽI (ODBITNA POSTAVKA),0,gd_chart
-930000,gd_acc_930000,account.data_account_type_non_current_liabilities,PRENESENI ČISTI DOBIČEK IZ PREJŠNJIH LET,0,gd_chart
-931000,gd_acc_931000,account.data_account_type_non_current_liabilities,PRENESENA ČISTA IZGUBA IZ PREJŠNJIH LET,0,gd_chart
+489000,gd_acc_489000,account.data_account_type_expenses,Ostali stroški,0,gd_chart
+490000,gd_acc_490000,account.data_account_type_expenses,Prenos stroškov v zaloge,0,gd_chart
+491000,gd_acc_491000,account.data_account_type_expenses,Prenos stroškov neposredno v odhodke,0,gd_chart
+600000,gd_acc_600000,account.data_account_type_current_assets,Nedokončana proizvodnja,0,gd_chart
+601000,gd_acc_601000,account.data_account_type_current_assets,Nedokončane storitve,0,gd_chart
+602000,gd_acc_602000,account.data_account_type_current_assets,Polizdelki,0,gd_chart
+604000,gd_acc_604000,account.data_account_type_current_assets,Proizvodnja v dodelavi in predelavi,0,gd_chart
+609000,gd_acc_609000,account.data_account_type_current_assets,Odmiki od cen nedokončanih proizvodnje in storitev,0,gd_chart
+610000,gd_acc_610000,account.data_account_type_current_assets,Pospravljeni pridelki po pošteni vrednosti,0,gd_chart
+618000,gd_acc_618000,account.data_account_type_current_assets,Pospravljeni pridelki po nabavni vrednosti,0,gd_chart
+619000,gd_acc_619000,account.data_account_type_current_assets,Odmiki od cen pridelkov,0,gd_chart
+630000,gd_acc_630000,account.data_account_type_current_assets,Proizvodi v lastnem skladišču,0,gd_chart
+631000,gd_acc_631000,account.data_account_type_current_assets,Proizvodi v tujem skladišču,0,gd_chart
+632000,gd_acc_632000,account.data_account_type_current_assets,Proizvodi na poti,0,gd_chart
+633000,gd_acc_633000,account.data_account_type_current_assets,Proizvodi v lastni prodajalni,0,gd_chart
+634000,gd_acc_634000,account.data_account_type_current_assets,Vračunani DDV od proizvodov v prodajalni,0,gd_chart
+635000,gd_acc_635000,account.data_account_type_current_assets,Proizvodi v dodelavi in predelavi,0,gd_chart
+639000,gd_acc_639000,account.data_account_type_current_assets,Odmiki od cen proizvodov,0,gd_chart
+650000,gd_acc_650000,account.data_account_type_current_assets,Vrednost blaga po obračunih dobaviteljev,0,gd_chart
+651000,gd_acc_651000,account.data_account_type_current_assets,Odvisni stroški nabave blaga,0,gd_chart
+652000,gd_acc_652000,account.data_account_type_current_assets,Carina in druge uvozne davščine od blaga,0,gd_chart
+653000,gd_acc_653000,account.data_account_type_current_assets,DDV in druge davščine od blaga,0,gd_chart
+659000,gd_acc_659000,account.data_account_type_current_assets,Obračun nabave blaga,0,gd_chart
+660000,gd_acc_660000,account.data_account_type_current_assets,Blago v lastnem skladišču,0,gd_chart
+661000,gd_acc_661000,account.data_account_type_current_assets,Blago v tujem skladišču,0,gd_chart
+662000,gd_acc_662000,account.data_account_type_current_assets,Blago na poti,0,gd_chart
+663000,gd_acc_663000,account.data_account_type_current_assets,Blago v lastni prodajalni,0,gd_chart
+664000,gd_acc_664000,account.data_account_type_current_assets,"DDV, vračunan v zalogah blaga",0,gd_chart
+669000,gd_acc_669000,account.data_account_type_current_assets,Vračunana razlika v cenah zalog blaga,0,gd_chart
+670000,gd_acc_670000,account.data_account_type_current_assets,"Opredmetena osnovna sredstva, namenjena prodaji",0,gd_chart
+671000,gd_acc_671000,account.data_account_type_current_assets,"Naložbene nepremičnine, vrednotene po modelu nabavne vrednosti, namenjene prodaji",0,gd_chart
+672000,gd_acc_672000,account.data_account_type_current_assets,"Druga nekratkoročna sredstva, namenjena prodaji",0,gd_chart
+673000,gd_acc_673000,account.data_account_type_current_assets,"Sredstva dela denar ustvarjajoče enote, namenjena prodaji",0,gd_chart
+674000,gd_acc_674000,account.data_account_type_current_assets,"Sredstva denar ustvarjajoče enote, namenjena prodaji",0,gd_chart
+700000,gd_acc_700000,account.data_account_type_direct_costs,Vrednost prodanih poslovnih učinkov,0,gd_chart
+701000,gd_acc_701000,account.data_account_type_direct_costs,Vrednost usredstvenih lastnih proizvodov in storitev,0,gd_chart
+702000,gd_acc_702000,account.data_account_type_direct_costs,Nabavna vrednost prodanih materiala in blaga,0,gd_chart
+703000,gd_acc_703000,account.data_account_type_direct_costs,Drugi poslovni odhodki,0,gd_chart
+710000,gd_acc_710000,account.data_account_type_direct_costs,Vrednost prodanih poslovnih učinkov,0,gd_chart
+711000,gd_acc_711000,account.data_account_type_direct_costs,Nabavna vrednost prodanih materiala in blaga,0,gd_chart
+712000,gd_acc_712000,account.data_account_type_direct_costs,Stroški prodajanja,0,gd_chart
+713000,gd_acc_713000,account.data_account_type_direct_costs,Stroški splošnih dejavnosti (nabave in uprave),0,gd_chart
+714000,gd_acc_714000,account.data_account_type_direct_costs,"Drugi stroški, ki se ne zadržujejo v zalogah",0,gd_chart
+720000,gd_acc_720000,account.data_account_type_direct_costs,"Prevrednotovalni poslovni odhodki v zvezi z neopredmetenimi sredstvi, opredmetenimi osnovnimi sredstvi in naložbenimi nepremičninami razporejenimi in izmerjenimi po modelu nabavne vrednosti",0,gd_chart
+721000,gd_acc_721000,account.data_account_type_direct_costs,"Prevrednotovalni poslovni odhodki v zvezi s kratkoročnimi sredstvi, razen s finančnimi naložbami",0,gd_chart
+722000,gd_acc_722000,account.data_account_type_direct_costs,Prevrednotovalni poslovni odhodki v zvezi s stroški dela,0,gd_chart
+723000,gd_acc_723000,account.data_account_type_direct_costs,Prevrednotovalni poslovni odhodki,0,gd_chart
+724000,gd_acc_724000,account.data_account_type_direct_costs,"Prevrednotovalni poslovni odhodki v zvezi s kratkoročnimi sredstvi, razen finančnimi naložbami",0,gd_chart
+740000,gd_acc_740000,account.data_account_type_direct_costs,"Odhodki iz posojil, prejetih od družb v skupini",0,gd_chart
+741000,gd_acc_741000,account.data_account_type_direct_costs,"Odhodki iz posojil, prejetih od bank",0,gd_chart
+742000,gd_acc_742000,account.data_account_type_direct_costs,Odhodki iz izdanih obveznic,0,gd_chart
+743000,gd_acc_743000,account.data_account_type_direct_costs,Odhodki iz drugih finančnih obveznosti,0,gd_chart
+744000,gd_acc_744000,account.data_account_type_direct_costs,Odhodki iz poslovnih obveznosti do družb v skupini,0,gd_chart
+745000,gd_acc_745000,account.data_account_type_direct_costs,Odhodki iz obveznosti do dobaviteljev in meničnih obveznosti,0,gd_chart
+746000,gd_acc_746000,account.data_account_type_direct_costs,Odhodki iz drugih poslovnih obveznosti,0,gd_chart
+746100,gd_acc_746100,account.data_account_type_direct_costs,Odhodek za nepravočasno plačane dajatve državi ,0,gd_chart
+747000,gd_acc_747000,account.data_account_type_direct_costs,"Odhodki iz sredstev, razporejenih po pošteni vrednosti prek poslovnega izida",0,gd_chart
+748000,gd_acc_748000,account.data_account_type_direct_costs,Odhodki iz oslabitve finančnih naložb,0,gd_chart
+748100,gd_acc_748100,account.data_account_type_direct_costs,"Odhodki iz oslabitve finančnih sredstev, razpoložljivih za prodajo",0,gd_chart
+748200,gd_acc_748200,account.data_account_type_direct_costs,"Odhodki iz oslabitve posojil in finančnih naložb v posesti do zapadlosti, merjenih po odplačni vrednosti",0,gd_chart
+748300,gd_acc_748300,account.data_account_type_direct_costs,"Odhodki iz oslabitve finančnih v odvisna podjetja, merjenih po nabavni vrednosti",0,gd_chart
+748400,gd_acc_748400,account.data_account_type_direct_costs,"Odhodki iz oslabitve finančnih naložb v kapitalske in izpeljane inštrumente, merjenih po nabavni vrednosti",0,gd_chart
+748900,gd_acc_748900,account.data_account_type_direct_costs,Odhodek iz oslabitve finančnih sredstev,0,gd_chart
+749000,gd_acc_749000,account.data_account_type_direct_costs,Odhodki iz odprave pripoznanja finančnih naložb,0,gd_chart
+750000,gd_acc_750000,account.data_account_type_direct_costs,Odhodki iz vrednotenja naložbenih nepremičnin po modelu poštene vrednosti,0,gd_chart
+751000,gd_acc_751000,account.data_account_type_direct_costs,"Odhodki iz odtujitve naložbenih nepremičnin, izmerjenih po pošteni vrednosti",0,gd_chart
+752000,gd_acc_752000,account.data_account_type_direct_costs,"Denarne kazni, ki niso povezane s poslovnimi učinki",0,gd_chart
+753000,gd_acc_753000,account.data_account_type_direct_costs,"Odškodnine, ki niso povezane s poslovnimi učinki",0,gd_chart
+754000,gd_acc_754000,account.data_account_type_direct_costs,Donacije,0,gd_chart
+755000,gd_acc_755000,account.data_account_type_direct_costs,"Subvencije, dotacije in podobni odhodki, ki niso povezani s poslovnimi učinki",0,gd_chart
+758000,gd_acc_758000,account.data_account_type_direct_costs,Negativne evrske izravnave,0,gd_chart
+759000,gd_acc_759000,account.data_account_type_direct_costs,"Ostali odhodki, ki niso povezani s poslovnimi učinki",0,gd_chart
+760000,gd_acc_760000,account.data_account_type_revenue,Prihodki od prodaje proizvodov in storitev na domačem trgu,0,gd_chart
+761000,gd_acc_761000,account.data_account_type_revenue,Prihodki od prodaje proizvodov in storitev na tujem trgu,0,gd_chart
+762000,gd_acc_762000,account.data_account_type_revenue,Prihodki od prodaje trgovskega blaga in materiala na domačem trgu,0,gd_chart
+763000,gd_acc_763000,account.data_account_type_revenue,Prihodki od prodaje trgovskega blaga in materiala na tujem trgu,0,gd_chart
+764000,gd_acc_764000,account.data_account_type_revenue,Prihodki iz vrednotenja bioloških sredstev in pospravitve kmetijskih proizvodov,0,gd_chart
+765000,gd_acc_765000,account.data_account_type_revenue,Prihodki od najemnin,0,gd_chart
+766000,gd_acc_766000,account.data_account_type_revenue,Prihodki od odprave rezervacij,0,gd_chart
+767000,gd_acc_767000,account.data_account_type_revenue,Prihodki od poslovnih združitev (presežek iz prevrednotenja - slabo ime),0,gd_chart
+768000,gd_acc_768000,account.data_account_type_revenue,"Drugi prihodki, povezani s poslovnimi učinki (subvencije, dotacije, regresi, kompenzacije, premije ...)",0,gd_chart
+769000,gd_acc_769000,account.data_account_type_revenue,Prevrednotovalni poslovni prihodki,0,gd_chart
+770000,gd_acc_770000,account.data_account_type_revenue,Finančni prihodki iz deležev v družbah v skupini,0,gd_chart
+771000,gd_acc_771000,account.data_account_type_revenue,Finančni prihodki iz deležev v pridruženih družbah in skupaj obvladovanih družbah,0,gd_chart
+772000,gd_acc_772000,account.data_account_type_revenue,Finančni prihodki iz deležev v drugih družbah,0,gd_chart
+773000,gd_acc_773000,account.data_account_type_revenue,Finančni prihodki iz drugih naložb,0,gd_chart
+774000,gd_acc_774000,account.data_account_type_revenue,"Finančni prihodki iz posojil, danih družbam v skupini",0,gd_chart
+775000,gd_acc_775000,account.data_account_type_revenue,"Finančni prihodki iz posojil, danih drugim (tudi od depozitov)",0,gd_chart
+776000,gd_acc_776000,account.data_account_type_revenue,Finančni prihodki iz poslovnih terjatev do družb v skupini,0,gd_chart
+777000,gd_acc_777000,account.data_account_type_revenue,Finančni prihodki iz poslovnih terjatev do drugih,0,gd_chart
+778000,gd_acc_778000,account.data_account_type_revenue,"Finančni prihodki iz finančnih sredstev, razporejenih po pošteni vrednosti prek poslovnega izida",0,gd_chart
+779000,gd_acc_779000,account.data_account_type_revenue,"Finančni prihodki iz vrednotenja naložbenih nepremičnin po pošteni vrednosti in prihodki od odtujitve naložbenih nepremičnin, merjenih po pošteni vrednosti ",0,gd_chart
+780000,gd_acc_780000,account.data_account_type_other_income,Prihodki iz vrednotenja naložbenih nepremičnin po pošteni vrednosti,0,gd_chart
+781000,gd_acc_781000,account.data_account_type_other_income,"Prihodki iz odtujitve naložbenih nepremičnin, izmerjenih po pošteni vrednosti",0,gd_chart
+784000,gd_acc_784000,account.data_account_type_other_income,Donacije,0,gd_chart
+785000,gd_acc_785000,account.data_account_type_other_income,"Subvencije, dotacije in podobni prihodki, ki niso povezani s poslovnimi učinki",0,gd_chart
+786000,gd_acc_786000,account.data_account_type_other_income,"Prejete odškodnine, ki niso povezane s poslovnimi učinki ",0,gd_chart
+787000,gd_acc_787000,account.data_account_type_other_income,"Prejete kazni, ki niso povezane s poslovnimi učinki ",0,gd_chart
+788000,gd_acc_788000,account.data_account_type_other_income,Pozitivne evrske izravnave,0,gd_chart
+789000,gd_acc_789000,account.data_account_type_other_income,"Ostali prihodkii, ki niso povezani s poslovnimi učinki ",0,gd_chart
+800000,gd_acc_800000,account.data_account_type_current_liabilities,Dobiček ali izguba pred obdavčitvijo oziroma presežek prihodkov ali presežek odhodkov,0,gd_chart
+801000,gd_acc_801000,account.data_account_type_current_liabilities,Ugotovitev in prenos dohodka samostojnih podjetnikov posameznikov,0,gd_chart
+803000,gd_acc_803000,account.data_account_type_current_liabilities,Ugotovitev in prenos negativnega poslovnega izida,0,gd_chart
+804000,gd_acc_804000,account.data_account_type_current_liabilities,"Presežek prihodkov iz prejšnjih let, namenjen pokritju presežka odhodkov obračunskega obdobja",0,gd_chart
+805000,gd_acc_805000,account.data_account_type_current_liabilities,"Presežek odhodkov iz prejšnjih let, ki se pokriva iz presežka prihodkov obračunskega obdobja ",0,gd_chart
+806000,gd_acc_806000,account.data_account_type_current_liabilities,Celotni presežek prihodkov ali celotni presežek odhodkov ,0,gd_chart
+810000,gd_acc_810000,account.data_account_type_current_liabilities,Davek od dohodkov pravnih oseb,0,gd_chart
+812000,gd_acc_812000,account.data_account_type_current_liabilities,"Drugi davki, ki niso izkazani v drugih postavkah",0,gd_chart
+813000,gd_acc_813000,account.data_account_type_current_liabilities,Prihodki (odhodki) iz naslova odloženega davka,0,gd_chart
+815000,gd_acc_815000,account.data_account_type_current_liabilities,Čisti dobiček poslovnega leta,0,gd_chart
+820000,gd_acc_820000,account.data_account_type_current_liabilities,Čisti dobiček za kritje prenesenih izgub,0,gd_chart
+821000,gd_acc_821000,account.data_account_type_current_liabilities,Čisti dobiček za oblikovanje zakonskih rezerv,0,gd_chart
+822000,gd_acc_822000,account.data_account_type_current_liabilities,Čisti dobiček za oblikovanje rezerv za lastne delnice oziroma deleže,0,gd_chart
+823000,gd_acc_823000,account.data_account_type_current_liabilities,Čisti dobiček za oblikovanje statutarnih rezerv,0,gd_chart
+824000,gd_acc_824000,account.data_account_type_current_liabilities,Čisti dobiček za druge rezerve iz dobička,0,gd_chart
+829000,gd_acc_829000,account.data_account_type_current_liabilities,Prenos neuporabljenega dela čistega dobička poslovnega leta,0,gd_chart
+890000,gd_acc_890000,account.data_account_type_current_liabilities,Izguba tekočega leta,0,gd_chart
+899000,gd_acc_899000,account.data_account_type_current_liabilities,Prenos izgube tekočega leta,0,gd_chart
+900000,gd_acc_900000,account.data_account_type_equity,Osnovni delniški kapital - navadne delnice,0,gd_chart
+901000,gd_acc_901000,account.data_account_type_equity,Osnovni delniški kapital - prednostne delnice,0,gd_chart
+902000,gd_acc_902000,account.data_account_type_equity,Osnovni kapital - kapitalski deleži,0,gd_chart
+903000,gd_acc_903000,account.data_account_type_equity,Osnovni kapital - kapitalska vloga,0,gd_chart
+905000,gd_acc_905000,account.data_account_type_equity,Nerazdružljivi zadružni kapital,0,gd_chart
+906000,gd_acc_906000,account.data_account_type_equity,Deleži članov zadruge,0,gd_chart
+907000,gd_acc_907000,account.data_account_type_equity,Ustanovitvena in kasnejše vloge,0,gd_chart
+909000,gd_acc_909000,account.data_account_type_equity,Nevpoklicani kapital (odbitna postavka),0,gd_chart
+910000,gd_acc_910000,account.data_account_type_equity,Vplačila nad najmanjšimi emisijskimi zneski delnic oziroma deležev (vplačani presežek kapitala),0,gd_chart
+911000,gd_acc_911000,account.data_account_type_equity,Vplačila nad knjigovodsko vrednostjo pri odtujitvi začasno odkupljenih lastnih delnic oziroma deležev,0,gd_chart
+912000,gd_acc_912000,account.data_account_type_equity,"Vplačila nad najmanjšim emisijskim zneskom kapitala, pridobljena z izdajo zamenljivih obveznic in obveznic z delniško nakupno opcijo",0,gd_chart
+913000,gd_acc_913000,account.data_account_type_equity,Vplačila za pridobitev dodatnih pravic iz delnic oziroma deležev,0,gd_chart
+914000,gd_acc_914000,account.data_account_type_equity,Druga vplačila kapitala na podlagi statuta,0,gd_chart
+915000,gd_acc_915000,account.data_account_type_equity,Zneski iz poenostavljenega zmanjšanja osnovnega kapitala in zneski zmanjšanja osnovnega kapitala z umikom delnic oziroma deležev,0,gd_chart
+916000,gd_acc_916000,account.data_account_type_equity,Splošni prevrednotovalni popravek kapitala,0,gd_chart
+917000,gd_acc_917000,account.data_account_type_equity,Zneski iz učinkov potrjene prisilne poravnave,0,gd_chart
+918000,gd_acc_918000,account.data_account_type_equity,Prenosi stvarnega premoženja med opravljanjem dejavnosti,0,gd_chart
+919000,gd_acc_919000,account.data_account_type_equity,Pritoki in odtoki med podjetjem in gospodinjstvom,0,gd_chart
+920000,gd_acc_920000,account.data_account_type_non_current_liabilities,Zakonske rezerve,0,gd_chart
+921000,gd_acc_921000,account.data_account_type_non_current_liabilities,Rezerve za lastne delnice oziroma lastne poslovne deleže,0,gd_chart
+922000,gd_acc_922000,account.data_account_type_non_current_liabilities,Statutarne rezerve,0,gd_chart
+923000,gd_acc_923000,account.data_account_type_non_current_liabilities,Druge rezerve iz dobička,0,gd_chart
+924000,gd_acc_924000,account.data_account_type_non_current_liabilities,Prostovoljne zadružne rezerve,0,gd_chart
+925000,gd_acc_925000,account.data_account_type_non_current_liabilities,Prostovoljni zadružni skladi,0,gd_chart
+926000,gd_acc_926000,account.data_account_type_non_current_liabilities,Del čistega presežka prihodkov za določen namen (sklad),0,gd_chart
+929000,gd_acc_929000,account.data_account_type_non_current_liabilities,Pridobljene lastne delnice oziroma lastni poslovni deleži (odbitna postavka),0,gd_chart
+930000,gd_acc_930000,account.data_account_type_non_current_liabilities,Preneseni čisti dobiček iz prejšnjih let,0,gd_chart
+931000,gd_acc_931000,account.data_account_type_non_current_liabilities,Prenesena čista izguba iz prejšnjih let,0,gd_chart
 932000,gd_acc_932000,account.data_unaffected_earnings,Neuporabljeni del čistega dobička poslovnega leta oziroma nerazporejeni čisti presežek prihodkov,0,gd_chart
 933000,gd_acc_933000,account.data_account_type_non_current_liabilities,Čista izguba poslovnega leta oziroma čisti presežek odhodkov,0,gd_chart
-934000,gd_acc_934000,account.data_account_type_non_current_liabilities,PRENOS IZ PRESEŽKA IZ PREVREDNOTENJA,0,gd_chart
-950000,gd_acc_950000,account.data_account_type_non_current_liabilities,PRESEŽEK IZ PREVREDNOTENJA ZEMLJIŠČ,0,gd_chart
-951000,gd_acc_951000,account.data_account_type_non_current_liabilities,PRESEŽEK IZ PREVREDNOTENJA ZGRADB,0,gd_chart
-952000,gd_acc_952000,account.data_account_type_non_current_liabilities,PRESEŽEK IZ PREVREDNOTENJA OPREME,0,gd_chart
-953000,gd_acc_953000,account.data_account_type_non_current_liabilities,PRESEŽEK IZ PREVREDNOTENJA NEOPREDMETENIH SREDSTEV,0,gd_chart
-954000,gd_acc_954000,account.data_account_type_non_current_liabilities,PRESEŽEK IZ PREVREDNOTENJA DOLGOROČNIH FINANČNIH NALOŽB,0,gd_chart
-955000,gd_acc_955000,account.data_account_type_non_current_liabilities,PRESEŽEK IZ PREVREDNOTENJA KRATKOROČNIH FINANČNIH NALOŽB,0,gd_chart
-959000,gd_acc_959000,account.data_account_type_non_current_liabilities,POPRAVEK VREDNOSTI PRESEŽKOV IZ PREVREDNOTENJA ZA ODLOŽENI DAVEK,0,gd_chart
-960000,gd_acc_960000,account.data_account_type_non_current_liabilities,REZERVACIJE ZA STROŠKE REORGANIZACIJE PODJETJA,0,gd_chart
-961000,gd_acc_961000,account.data_account_type_non_current_liabilities,REZERVACIJE ZA POKRIVANJE PRIHODNJIH STROŠKOV OZIROMA ODHODKOV ZARADI RAZGRADNJE IN PONOVNE VZPOSTAVITVE PRVOTNEGA STANJA TER DRUGE PODOBNE REZERVACIJE,0,gd_chart
-962000,gd_acc_962000,account.data_account_type_non_current_liabilities,REZERVACIJE ZA KOČLJIVE POGODBE,0,gd_chart
-963000,gd_acc_963000,account.data_account_type_non_current_liabilities,"REZERVACIJE ZA POKOJNINE, JUBILEJNE NAGRADE IN ODPRAVNINE OB UPOKOJITVI",0,gd_chart
-964000,gd_acc_964000,account.data_account_type_non_current_liabilities,REZERVACIJE ZA DANA JAMSTVA,0,gd_chart
-965000,gd_acc_965000,account.data_account_type_non_current_liabilities,DRUGE REZERVACIJE IZ NASLOVA DOLGOROČNO VNAPREJ VRAČUNANIH STROŠKOV,0,gd_chart
-966000,gd_acc_966000,account.data_account_type_non_current_liabilities,PREJETE DRŽAVNE PODPORE,0,gd_chart
-967000,gd_acc_967000,account.data_account_type_non_current_liabilities,PREJETE DONACIJE,0,gd_chart
-968000,gd_acc_968000,account.data_account_type_non_current_liabilities,DRUGE DOLGOROČNE PASIVNE ČASOVNE RAZMEJITVE,0,gd_chart
-970000,gd_acc_970000,account.data_account_type_non_current_liabilities,"DOLGOROČNA POSOJILA, DOBLJENA PRI DRUŽBAH V SKUPINI",0,gd_chart
-971000,gd_acc_971000,account.data_account_type_non_current_liabilities,"DOLGOROČNA POSOJILA, DOBLJENA PRI PRIDRUŽENIH DRUŽBAH",0,gd_chart
-972000,gd_acc_972000,account.data_account_type_non_current_liabilities,"DOLGOROČNA POSOJILA, DOBLJENA PRI BANKAH IN DRUŽBAH V DRŽAVI",0,gd_chart
-973000,gd_acc_973000,account.data_account_type_non_current_liabilities,"DOLGOROČNA POSOJILA, DOBLJENA PRI BANKAH IN DRUŽBAH V TUJINI",0,gd_chart
-974000,gd_acc_974000,account.data_account_type_non_current_liabilities,DOLGOROČNE FINANČNE OBVEZNOSTI V ZVEZI Z OBVEZNICAMI,0,gd_chart
-975000,gd_acc_975000,account.data_account_type_non_current_liabilities,DOLGOROČNI DOLGOVI IZ FINANČNEGA NAJEMA,0,gd_chart
-976000,gd_acc_976000,account.data_account_type_non_current_liabilities,DOLGOROČNE FINANČNE OBVEZNOSTI DO FIZIČNIH OSEB,0,gd_chart
-979000,gd_acc_979000,account.data_account_type_non_current_liabilities,DRUGE DOLGOROČNE FINANČNE OBVEZNOSTI,0,gd_chart
-980000,gd_acc_980000,account.data_account_type_non_current_liabilities,"DOLGOROČNI KREDITI, DOBLJENI NA PODLAGI KREDITNIH POGODB OD DRUŽB V SKUPINI",0,gd_chart
-981000,gd_acc_981000,account.data_account_type_non_current_liabilities,"DOLGOROČNI KREDITI, DOBLJENI NA PODLAGI KREDITNIH POGODB OD PRIDRUŽENIH DRUŽB IN SKUPAJ OBVLADOVANIH DRUŽB",0,gd_chart
-982000,gd_acc_982000,account.data_account_type_non_current_liabilities,"DOLGOROČNI KREDITI, DOBLJENI OD DRUGIH DOMAČIH DOBAVITELJEV",0,gd_chart
-983000,gd_acc_983000,account.data_account_type_non_current_liabilities,"DOLGOROČNI KREDITI, DOBLJENI OD DRUGIH TUJIH DOBAVITELJEV",0,gd_chart
-985000,gd_acc_985000,account.data_account_type_non_current_liabilities,DOLGOROČNE MENIČNE OBVEZNOSTI,0,gd_chart
-986000,gd_acc_986000,account.data_account_type_non_current_liabilities,DOLGOROČNI DOBLJENI PREDUJMI IN VARŠČINE,0,gd_chart
-988000,gd_acc_988000,account.data_account_type_non_current_liabilities,OBVEZNOSTI ZA ODLOŽENI DAVEK,0,gd_chart
-989000,gd_acc_989000,account.data_account_type_non_current_liabilities,DRUGE DOLGOROČNE POSLOVNE OBVEZNOSTI,0,gd_chart
-990000,gd_acc_990000,account.data_account_type_non_current_liabilities,"NAJETA, IZPOSOJENA IN ZAKUPLJENA (TUJA) SREDSTVA",0,gd_chart
-991000,gd_acc_991000,account.data_account_type_non_current_liabilities,"MENICE IN DRUGI VREDNOSTNI PAPIRJI, PREJETI ZA ZAVAROVANJE PLAČIL",0,gd_chart
-992000,gd_acc_992000,account.data_account_type_non_current_liabilities,"BLAGO, PREJETO V KOMISIJSKO IN KONSIGNACIJSKO PRODAJO",0,gd_chart
-993000,gd_acc_993000,account.data_account_type_non_current_liabilities,"VREDNOTNICE, IZDANE ZA OBRAČUNAVANJE ZNOTRAJ PRAVNE OSEBE",0,gd_chart
-994000,gd_acc_994000,account.data_account_type_non_current_liabilities,DRUGI AKTIVNI ZUNAJBILANČNI KONTI,0,gd_chart
-995000,gd_acc_995000,account.data_account_type_non_current_liabilities,"LASTNIKI NAJETIH, IZPOSOJENIH IN ZAKUPLJENIH SREDSTEV",0,gd_chart
-996000,gd_acc_996000,account.data_account_type_non_current_liabilities,"DOLŽNIKI, KI SO ZAVAROVALI PLAČILA Z MENICAMI IN DRUGIMI VREDNOSTNIMI PAPIRJI",0,gd_chart
-997000,gd_acc_997000,account.data_account_type_non_current_liabilities,"OBVEZNOSTI IZ BLAGA, PREJETEGA V KOMISIJSKO IN KONSIGNACIJSKO PRODAJO",0,gd_chart
-998000,gd_acc_998000,account.data_account_type_non_current_liabilities,"NOMINALNA VREDNOST VREDNOTNIC, IZDANIH ZA OBRAČUNAVANJE ZNOTRAJ PRAVNE OSEBE",0,gd_chart
-999000,gd_acc_999000,account.data_account_type_non_current_liabilities,DRUGI PASIVNI ZUNAJBILANČNI KONTI,0,gd_chart
+934000,gd_acc_934000,account.data_account_type_non_current_liabilities,Prenos iz presežka iz prevrednotenja,0,gd_chart
+935000,gd_acc_935000,account.data_account_type_non_current_liabilities,Dohodek samostojnih podjetnikov posameznikov,0,gd_chart
+937000,gd_acc_937000,account.data_account_type_non_current_liabilities,Negativni poslovni izid samostojnih podjetnikov posameznikov,0,gd_chart
+940000,gd_acc_940000,account.data_account_type_non_current_liabilities,Revalorizacijske rezerve iz prevrednotenja zemljišč,0,gd_chart
+941000,gd_acc_941000,account.data_account_type_non_current_liabilities,Revalorizacijske rezerve iz prevrednotenja zgradb,0,gd_chart
+949000,gd_acc_949000,account.data_account_type_non_current_liabilities,Popravek vrednosti revalorizacijskih rezerv za odložene obveznosti za davek,0,gd_chart
+950000,gd_acc_950000,account.data_account_type_non_current_liabilities,Rezerve iz prevrednotenja zemljišč,0,gd_chart
+951000,gd_acc_951000,account.data_account_type_non_current_liabilities,Rezerve iz prevrednotenja zgradb,0,gd_chart
+952000,gd_acc_952000,account.data_account_type_non_current_liabilities,Rezerve iz prevrednotenja opreme,0,gd_chart
+953000,gd_acc_953000,account.data_account_type_non_current_liabilities,Rezerve iz prevrednotenja neopredmetenih sredstev,0,gd_chart
+954000,gd_acc_954000,account.data_account_type_non_current_liabilities,Rezerve iz prevrednotenja dolgoročnih finančnih naložb,0,gd_chart
+955000,gd_acc_955000,account.data_account_type_non_current_liabilities,Rezerve iz prevrednotenja kratkoročnih finančnih naložb,0,gd_chart
+956000,gd_acc_956000,account.data_account_type_non_current_liabilities,"Zneski dokazanega dobička ali dokazane izgube iz spremembe poštene vrednosti finančnih sredstev, razpoložljivih za prodajo, ki ni del razmerja pri varovanju vrednosti ",0,gd_chart
+957000,gd_acc_957000,account.data_account_type_non_current_liabilities,Aktuarski dobički ali izgube od določenih zaslužkov,0,gd_chart
+959000,gd_acc_959000,account.data_account_type_non_current_liabilities,"Popravek vrednosti rezerv, nastalih zaradi vrednotenja po pošteni vrednosti za odložene obveznosti za davek",0,gd_chart
+960000,gd_acc_960000,account.data_account_type_non_current_liabilities,Rezervacije za stroške reorganizacije podjetja,0,gd_chart
+961000,gd_acc_961000,account.data_account_type_non_current_liabilities,Rezervacije za pokrivanje prihodnjih stroškov oziroma odhodkov zaradi razgradnje in ponovne vzpostavitve prvotnega stanja ter druge podobne rezervacije,0,gd_chart
+962000,gd_acc_962000,account.data_account_type_non_current_liabilities,Rezervacije za kočljive pogodbe,0,gd_chart
+963000,gd_acc_963000,account.data_account_type_non_current_liabilities,"Rezervacije za pokojnine, jubilejne nagrade in odpravnine ob upokojitvi",0,gd_chart
+964000,gd_acc_964000,account.data_account_type_non_current_liabilities,Rezervacije za dana jamstva,0,gd_chart
+965000,gd_acc_965000,account.data_account_type_non_current_liabilities,Druge rezervacije iz naslova dolgoročno vnaprej vračunanih stroškov,0,gd_chart
+966000,gd_acc_966000,account.data_account_type_non_current_liabilities,Prejete državne podpore,0,gd_chart
+967000,gd_acc_967000,account.data_account_type_non_current_liabilities,Prejete donacije,0,gd_chart
+968000,gd_acc_968000,account.data_account_type_non_current_liabilities,Druge dolgoročne pasivne časovne razmejitve,0,gd_chart
+970000,gd_acc_970000,account.data_account_type_non_current_liabilities,"Dolgoročna posojila, dobljena pri družbah v skupini",0,gd_chart
+971000,gd_acc_971000,account.data_account_type_non_current_liabilities,"Dolgoročna posojila, dobljena pri pridruženih družbah",0,gd_chart
+972000,gd_acc_972000,account.data_account_type_non_current_liabilities,"Dolgoročna posojila, dobljena pri bankah in družbah v državi",0,gd_chart
+973000,gd_acc_973000,account.data_account_type_non_current_liabilities,"Dolgoročna posojila, dobljena pri bankah in družbah v tujini",0,gd_chart
+974000,gd_acc_974000,account.data_account_type_non_current_liabilities,Dolgoročne finančne obveznosti v zvezi z obveznicami,0,gd_chart
+975000,gd_acc_975000,account.data_account_type_non_current_liabilities,Dolgoročni dolgovi iz finančnega najema,0,gd_chart
+976000,gd_acc_976000,account.data_account_type_non_current_liabilities,Dolgoročne finančne obveznosti do fizičnih oseb,0,gd_chart
+979000,gd_acc_979000,account.data_account_type_non_current_liabilities,Druge dolgoročne finančne obveznosti,0,gd_chart
+980000,gd_acc_980000,account.data_account_type_non_current_liabilities,"Dolgoročni krediti, dobljeni na podlagi kreditnih pogodb od družb v skupini",0,gd_chart
+981000,gd_acc_981000,account.data_account_type_non_current_liabilities,"Dolgoročni krediti, dobljeni na podlagi kreditnih pogodb od pridruženih družb in skupaj obvladovanih družb",0,gd_chart
+982000,gd_acc_982000,account.data_account_type_non_current_liabilities,"Dolgoročni krediti, dobljeni od drugih domačih dobaviteljev",0,gd_chart
+983000,gd_acc_983000,account.data_account_type_non_current_liabilities,"Dolgoročni krediti, dobljeni od drugih tujih dobaviteljev",0,gd_chart
+985000,gd_acc_985000,account.data_account_type_non_current_liabilities,Dolgoročne menične obveznosti,0,gd_chart
+986000,gd_acc_986000,account.data_account_type_non_current_liabilities,Dolgoročni dobljeni predujmi in varščine,0,gd_chart
+988000,gd_acc_988000,account.data_account_type_non_current_liabilities,Obveznosti za odloženi davek,0,gd_chart
+989000,gd_acc_989000,account.data_account_type_non_current_liabilities,Druge dolgoročne poslovne obveznosti,0,gd_chart
+990000,gd_acc_990000,account.data_account_type_non_current_liabilities,"Najeta, izposojena in zakupljena (tuja) sredstva",0,gd_chart
+991000,gd_acc_991000,account.data_account_type_non_current_liabilities,"Menice in drugi vrednostni papirji, prejeti za zavarovanje plačil",0,gd_chart
+992000,gd_acc_992000,account.data_account_type_non_current_liabilities,"Blago, prejeto v komisijsko in konsignacijsko prodajo",0,gd_chart
+993000,gd_acc_993000,account.data_account_type_non_current_liabilities,"Vrednotnice, izdane za obračunavanje znotraj pravne osebe",0,gd_chart
+994000,gd_acc_994000,account.data_account_type_non_current_liabilities,Drugi aktivni zunajbilančni konti,0,gd_chart
+995000,gd_acc_995000,account.data_account_type_non_current_liabilities,"Lastniki najetih, izposojenih in zakupljenih sredstev",0,gd_chart
+996000,gd_acc_996000,account.data_account_type_non_current_liabilities,"Dolžniki, ki so zavarovali plačila z menicami in drugimi vrednostnimi papirji",0,gd_chart
+997000,gd_acc_997000,account.data_account_type_non_current_liabilities,"Obveznosti iz blaga, prejetega v komisijsko in konsignacijsko prodajo",0,gd_chart
+998000,gd_acc_998000,account.data_account_type_non_current_liabilities,"Nominalna vrednost vrednotnic, izdanih za obračunavanje znotraj pravne osebe",0,gd_chart
+999000,gd_acc_999000,account.data_account_type_non_current_liabilities,Drugi pasivni zunajbilančni konti,0,gd_chart
