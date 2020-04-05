@@ -1,4 +1,4 @@
-code,id,user_type_id/id,Name,reconcile,chart_template_id/id
+code,id,user_type_id/id,name,reconcile,chart_template_id/id
 000000,gd_acc_000000,account.data_account_type_non_current_assets,Dobro ime,0,gd_chart
 001000,gd_acc_001000,account.data_account_type_non_current_assets,Usredstveni stroški naložb v tuja opredmetena osnovna sredstva ,0,gd_chart
 002000,gd_acc_002000,account.data_account_type_non_current_assets,Odloženi stroški razvijanja,0,gd_chart
