@@ -170,7 +170,7 @@ code,id,user_type_id/id,name,reconcile,chart_template_id/id
 195000,gd_acc_195000,account.data_account_type_current_assets,DDV od prejetih predujmov,0,gd_chart
 210000,gd_acc_210000,account.data_account_type_current_liabilities,"Obveznosti, vključene v skupine za odtujitev",0,gd_chart
 220000,gd_acc_220000,account.data_account_type_payable,Kratkoročne obveznosti (dolgovi) do dobaviteljev v državi,1,gd_chart
-220900,gd_acc_220900,account.data_account_type_payable,Kratkoročne obveznosti do dobaviteljev v državi-sporno,0,gd_chart
+220900,gd_acc_220900,account.data_account_type_current_liabilities,Kratkoročne obveznosti do dobaviteljev v državi-sporno,0,gd_chart
 221000,gd_acc_221000,account.data_account_type_payable,Kratkoročne obveznosti (dolgovi) do dobaviteljev v tujini,1,gd_chart
 222000,gd_acc_222000,account.data_account_type_current_liabilities,"Kratkoročni blagovni krediti, prejeti v državi",0,gd_chart
 223000,gd_acc_223000,account.data_account_type_current_liabilities,"Kratkoročni blagovni krediti, prejeti v tujini",0,gd_chart
