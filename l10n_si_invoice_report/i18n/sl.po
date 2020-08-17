@@ -25,7 +25,7 @@ msgstr "<strong>Datum računa:</strong>"
 #. module: l10n_si_invoice_report
 #: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
 msgid "<strong>Service Date:</strong>"
-msgstr "<strong>Datum storitve:</strong>"
+msgstr "<strong>DUR:</strong>"
 
 #. module: l10n_si_invoice_report
 #: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date

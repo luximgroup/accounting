@@ -34,11 +34,11 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
               inherit_id="account.report_invoice_document" >
         <xpath expr="//div[@t-if='o.date_invoice']"
                position="replace">
-            <div class="col-xs-2" t-if="o.date_invoice_creation">
+            <div class="col-auto mw-100 mb-2" t-if="o.date_invoice_creation">
                 <strong>Invoice Date:</strong>
                 <p t-field="o.date_invoice"/>
             </div>
-            <div class="col-xs-2" t-if="o.date_invoice">
+            <div class="col-auto mw-100 mb-2" t-if="o.date_invoice">
                 <strong>Service Date:</strong>
                 <p t-field="o.date_invoice"/>
             </div>
