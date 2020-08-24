@@ -15,6 +15,10 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
                 <field name="date_invoice_creation" string="Creation Date"/>
                 <field name="date_invoice_received"/>
             </field>
+            <field name="name" position="replace"/>
+            <field name="reference" position="after">
+                <field name="name"/>
+            </field>
         </field>
     </record>
 
@@ -27,6 +31,10 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
                 <field name="date_invoice" string="Service Date"/>
                 <field name="date_invoice_creation" string="Creation Date"/>
             </field>
+            <field name="name" position="replace"/>
+            <field name="reference" position="after">
+                <field name="name"/>
+            </field>
         </field>
     </record>
 
@@ -36,7 +44,7 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
                position="replace">
             <div class="col-auto mw-100 mb-2" t-if="o.date_invoice_creation">
                 <strong>Invoice Date:</strong>
-                <p t-field="o.date_invoice"/>
+                <p t-field="o.date_invoice_creation"/>
             </div>
             <div class="col-auto mw-100 mb-2" t-if="o.date_invoice">
                 <strong>Service Date:</strong>

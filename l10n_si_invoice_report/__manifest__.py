@@ -6,7 +6,7 @@
 
 {
     'name': 'Invoice Service Completion Date',
-    'version': '12.0.1.0.0',
+    'version': '12.0.1.0.1',
     'category': 'Accounting',
     'author': 'Luxim & Matmoz, '
               'PMISuite.com',
