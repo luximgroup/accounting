@@ -36,7 +36,7 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
             <xpath expr="//page[@name='other_info']/group/group[1]/field[@name='name']" position="attributes">
                 <attribute name="invisible">1</attribute>
             </xpath>
-            <field name="reference" position="after">
+            <field name="payment_term_id" position="after">
                 <field name="name"/>
             </field>
         </field>
