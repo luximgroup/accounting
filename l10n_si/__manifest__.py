@@ -30,6 +30,7 @@
         "data/account.fiscal.position.tax.template.csv",
         "data/account_chart_template_data.xml",
         "data/res.bank.xml",
+        "data/res_company_data.xml",
     ],
     "installable": True,
     'maintainers': ['sysadminmatmoz'],
