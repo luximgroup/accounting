@@ -81,8 +81,9 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
                 <p t-field="o.date_invoice"/>
             </div>
         </xpath>
-        <xpath expr="//p[@t-if='o.comment']"
+        <xpath expr="//p[@name='comment']"
                position="before">
+            <p name="tax_summary">
             <div class="row" t-if="len(o.tax_line_ids) > 0" id="tax_summary">
                 <div class="col-xs-8">
                     <table class="table table-condensed">
@@ -111,6 +112,7 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
                     </table>
                 </div>
             </div>
+            </p>
         </xpath>
         <xpath expr="//span[@t-field='line.price_unit']" position="attributes">
             <attribute name="t-options">{"precision": 2}</attribute>
