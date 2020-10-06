@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-16 20:52+0000\n"
-"PO-Revision-Date: 2020-03-16 20:52+0000\n"
+"POT-Creation-Date: 2020-10-06 05:04+0000\n"
+"PO-Revision-Date: 2020-10-06 05:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -71,6 +71,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice
 #: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_debt_form
 #: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_debt_form
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.view_account_invoice_filter
 msgid "Service Date"
 msgstr ""
 
