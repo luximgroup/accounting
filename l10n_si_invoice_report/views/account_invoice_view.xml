@@ -83,36 +83,30 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
         </xpath>
         <xpath expr="//p[@name='comment']"
                position="before">
-            <p name="tax_summary">
-            <div class="row" t-if="len(o.tax_line_ids) > 0" id="tax_summary">
-                <div class="col-xs-8">
-                    <table class="table table-condensed">
-                        <thead id="tax_summary_header">
-                            <tr>
-                                <th>Tax Summary</th>
-                                <th>Tax</th>
-                                <th class="text-right">Base</th>
-                                <th class="text-right">Amount</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr t-foreach="o.tax_line_ids" t-as="t">
-                                <td><span t-field="t.tax_id.description"/></td>
-                                <td><span t-field="t.tax_id.name"/></td>
-                                <td class="text-right">
-                                    <span t-field="t.base"
-                                          t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
-                                </td>
-                                <td class="text-right">
-                                    <span t-field="t.amount"
-                                          t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            </p>
+            <table class="table table-condensed">
+                <thead id="tax_summary_header">
+                    <tr>
+                        <th>Tax Summary</th>
+                        <th>Tax</th>
+                        <th class="text-right">Base</th>
+                        <th class="text-right">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr t-foreach="o.tax_line_ids" t-as="t">
+                        <td><span t-field="t.tax_id.description"/></td>
+                        <td><span t-field="t.tax_id.name"/></td>
+                        <td class="text-right">
+                            <span t-field="t.base"
+                                  t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                        </td>
+                        <td class="text-right">
+                            <span t-field="t.amount"
+                                  t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </xpath>
         <xpath expr="//span[@t-field='line.price_unit']" position="attributes">
             <attribute name="t-options">{"precision": 2}</attribute>
