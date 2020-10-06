@@ -112,5 +112,8 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl-3.0-standalone.html)
                 </div>
             </div>
         </xpath>
+        <xpath expr="//span[@t-field='line.price_unit']" position="attributes">
+            <attribute name="t-options">{"precision": 2}</attribute>
+        </xpath>
     </template>
 </odoo>
