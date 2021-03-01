@@ -7,7 +7,7 @@
         <field name="bank_account_code_prefix">110</field>
         <field name="cash_account_code_prefix">100</field>
         <field name="transfer_account_code_prefix">109</field>
-        <field name="use_anglo_saxon" eval="True" />
+        <field name="use_anglo_saxon" eval="False" />
         <field name="code_digits">6</field>
         <field name="currency_id" ref="base.EUR"/>
     </record>
