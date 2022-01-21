@@ -12,12 +12,12 @@ class AccountInvoice(models.Model):
     _inherit = "account.invoice"
 
     date_invoice_creation = fields.Date(
-        string='Creation Date',
+        string='Issue Date',
         readonly=True,
         states={'draft': [('readonly', False)]},
         index=True,
         default=lambda *a: date.today().strftime('%Y-%m-%d'),
-        help="Date when invoice was created."
+        help="Date when invoice was issued."
     )
 
     date_invoice = fields.Date(

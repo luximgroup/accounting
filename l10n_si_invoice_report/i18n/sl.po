@@ -41,7 +41,7 @@ msgstr "Osnova"
 #: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice_creation
 #: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_debt_form
 #: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_debt_form
-msgid "Creation Date"
+msgid "Issue Date"
 msgstr "Datum računa"
 
 #. module: l10n_si_invoice_report
